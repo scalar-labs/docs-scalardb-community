@@ -37,116 +37,104 @@ versions:
     - version-title: "Licensed version"
       version-url: "https://scalar-labs.github.io/docs-scalardb"
     - version-title: "3.9 Community (latest)"
-      version-url: /3.9
+      version-url: /docs/3.9
     - version-title: "3.8 Community"
-      version-url: /3.8
+      version-url: /docs/3.8
     - version-title: "3.7 Community"
-      version-url: /3.7
+      version-url: /docs/3.7
     - version-title: "3.6 Community"
-      version-url: /3.6
+      version-url: /docs/3.6
     - version-title: "3.5 Community"
-      version-url: /3.5
+      version-url: /docs/3.5
     - version-title: "3.4 Community"
-      version-url: /3.4
+      version-url: /docs/3.4
 
 "3.9":
-  - title: "⬅ ScalarDB home" 
-    url: / # Don't change this URL. This links back to the parent product home page.
+  - title: "⬅ ScalarDB Community docs home" 
+    url: /docs/ # Don't change this URL. This links back to the parent product home page.
   - title: "ScalarDB 3.9 Community (latest)"
     children:
   # Get Started docs
   - title: "Get Started"
     children:
       - title: "Add ScalarDB to your build"
-        url: /3.9/add-scalardb-to-your-build
+        url: /docs/3.9/add-scalardb-to-your-build
       - title: "Setting Up Your Database Environment"
-        url: /3.9/getting-started
+        url: /docs/3.9/getting-started
       # - title: "Getting Started with ScalarDB on Cassandra"
-      #   url: /3.9/getting-started-with-scalardb-on-cassandra
+      #   url: /docs/3.9/getting-started-with-scalardb-on-cassandra
       # - title: "Getting Started with ScalarDB on Cosmos DB"
-      #   url: /3.9/getting-started-with-scalardb-on-cosmosdb
+      #   url: /docs/3.9/getting-started-with-scalardb-on-cosmosdb
       # - title: "Getting Started with ScalarDB on DynamoDB"
-      #   url: /3.9/getting-started-with-scalardb-on-dynamodb
+      #   url: /docs/3.9/getting-started-with-scalardb-on-dynamodb
       # - title: "Getting Started with ScalarDB on JDBC databases"
-      #   url: /3.9/getting-started-with-scalardb-on-jdbc
+      #   url: /docs/3.9/getting-started-with-scalardb-on-jdbc
       - title: "Getting Started with ScalarDB"
-        url: /3.9/getting-started-with-scalardb
+        url: /docs/3.9/getting-started-with-scalardb
       # - title: "ScalarDB Data Loader API" # May be added in the near future.
-      #   url: /3.9/scalardb-data-loader/easy-to-start
-      - title: "Getting Started with ScalarDB GraphQL"
-        url: /3.9/scalardb-graphql/getting-started-with-scalardb-graphql
-      - title: "Getting Started with ScalarDB JDBC"
-        url: /3.9/scalardb-sql/getting-started-with-jdbc
-      - title: "Getting Started with ScalarDB SQL"
-        url: /3.9/scalardb-sql/getting-started-with-sql
+      #   url: /docs/3.9/scalardb-data-loader/easy-to-start
       - title: "Getting Started with Scalar Helm Charts"
-        url: /3.9/helm-charts/getting-started-scalar-helm-charts
+        url: /docs/3.9/helm-charts/getting-started-scalar-helm-charts
       - title: "Getting Started with Helm Charts (ScalarDB Server)"
-        url: /3.9/helm-charts/getting-started-scalardb
+        url: /docs/3.9/helm-charts/getting-started-scalardb
   # Samples docs
   - title: "Samples" 
     children:
       # - title: "ScalarDB Samples" 
-      #   url: /3.9/scalardb-samples
+      #   url: /docs/3.9/scalardb-samples
       - title: "ScalarDB Samples"
-        url: /3.9/scalardb-samples/scalardb-sample
+        url: /docs/3.9/scalardb-samples/scalardb-sample
       # - title: "ScalarDB Server Sample"
-      #   url: /3.9/scalardb-samples/scalardb-server-sample
+      #   url: /docs/3.9/scalardb-samples/scalardb-server-sample
       # - title: "Microservice Transaction Sample"
-      #   url: /3.9/scalardb-samples/microservice-transaction-sample
+      #   url: /docs/3.9/scalardb-samples/microservice-transaction-sample
       # - title: "Multi-Storage Transaction Sample"
-      #   url: /3.9/scalardb-samples/multi-storage-transaction-sample
+      #   url: /docs/3.9/scalardb-samples/multi-storage-transaction-sample
       # - title: "ScalarDB GraphQL Sample"
-      #   url: /3.9/scalardb-samples/scalardb-graphql-sample
+      #   url: /docs/3.9/scalardb-samples/scalardb-graphql-sample
       - title: "Spring Data Multi-Storage Transaction Sample"
-        url: /3.9/scalardb-samples/spring-data-multi-storage-transaction-sample
+        url: /docs/3.9/scalardb-samples/spring-data-multi-storage-transaction-sample
       - title: "Spring Data Sample"
-        url: /3.9/scalardb-samples/spring-data-sample
+        url: /docs/3.9/scalardb-samples/spring-data-sample
       - title: "ScalarDB Deployment Sample on Kubernetes (Multi-Storage Transactions)"
-        url: /3.9/helm-charts/samples/scalardb/scalardb-multi-storage-sample
+        url: /docs/3.9/helm-charts/samples/scalardb/scalardb-multi-storage-sample
   # Develop docs
   - title: "Develop"
     children:
       - title: "ScalarDB Java API Guide"
-        url: /3.9/api-guide
+        url: /docs/3.9/api-guide
       - title: "ScalarDB Schema Loader"
-        url: /3.9/schema-loader
+        url: /docs/3.9/schema-loader
       - title: "Multi-storage Transactions"
-        url: /3.9/multi-storage-transactions
+        url: /docs/3.9/multi-storage-transactions
       - title: "Two-Phase Commit Transactions"
-        url: /3.9/two-phase-commit-transactions
-      - title: "How to Run Two-Phase Commit Transaction"
-        url: /3.9/scalardb-graphql/how-to-run-two-phase-commit-transaction
-      - title: "How to Run ScalarDB GraphQL Server"
-        url: /3.9/scalardb-graphql/how-to-run-server
-      - title: "ScalarDB SQL Command Line Interface"
-        url: /3.9/scalardb-sql/command-line-interface      
+        url: /docs/3.9/two-phase-commit-transactions    
   # Deploy docs
   - title: "Deploy"
     children:
       - title: "ScalarDB Server"
-        url: /3.9/scalardb-server
+        url: /docs/3.9/scalardb-server
       - title: "Configure a custom values file for ScalarDB Server"
-        url: /3.9/helm-charts/configure-custom-values-scalardb
+        url: /docs/3.9/helm-charts/configure-custom-values-scalardb
       - title: "Configure a custom values file for Scalar Helm Charts"
-        url: /3.9/helm-charts/configure-custom-values-file
+        url: /docs/3.9/helm-charts/configure-custom-values-file
       - title: "Configure a custom values file for Scalar Envoy"
-        url: /3.9/helm-charts/configure-custom-values-envoy
+        url: /docs/3.9/helm-charts/configure-custom-values-envoy
       - title: "Configure a custom values file for ScalarDB GraphQL"
-        url: /3.9/helm-charts/configure-custom-values-scalardb-graphql
+        url: /docs/3.9/helm-charts/configure-custom-values-scalardb-graphql
       - title: "How to use Secret resources to pass the credentials as the environment variables into the properties file"
-        url: /3.9/helm-charts/use-secret-for-credentilas
+        url: /docs/3.9/helm-charts/use-secret-for-credentilas
       - title: "Deploy Scalar products using Scalar Helm Charts"
-        url: /3.9/helm-charts/how-to-deploy-scalar-products
+        url: /docs/3.9/helm-charts/how-to-deploy-scalar-products
       - title: "How to deploy ScalarDB Server"
-        url: /3.9/helm-charts/how-to-deploy-scalardb
+        url: /docs/3.9/helm-charts/how-to-deploy-scalardb
       - title: "How to deploy ScalarDB GraphQL"
-        url: /3.9/helm-charts/how-to-deploy-scalardb-graphql      
+        url: /docs/3.9/helm-charts/how-to-deploy-scalardb-graphql      
   # Manage docs
   - title: "Manage"
     children:
       - title: "How to Backup and Restore Databases Used Through ScalarDB"
-        url: /3.9/backup-restore
+        url: /docs/3.9/backup-restore
   # Migrate docs
   # - title: "Migrate"
   #   children:
@@ -156,103 +144,103 @@ versions:
   - title: "Reference"
     children:      
       - title: "ScalarDB Design Document"
-        url: /3.9/design
+        url: /docs/3.9/design
       - title: "ScalarDB Supported Databases"
-        url: /3.9/scalardb-supported-databases
+        url: /docs/3.9/scalardb-supported-databases
       - title: "Requirements in the Underlying Databases of ScalarDB"
-        url: /3.9/requirements
+        url: /docs/3.9/requirements
       - title: "Configurations for Consensus Commit"
-        url: /3.9/configurations-for-consensus-commit
+        url: /docs/3.9/configurations-for-consensus-commit
       - title: "Storage Abstraction"
-        url: /3.9/storage-abstraction
+        url: /docs/3.9/storage-abstraction
       - title: "ScalarDB Benchmarks"
-        url: /3.9/scalardb-benchmarks
+        url: /docs/3.9/scalardb-benchmarks
 
 "3.8":
   - title: "⬅ ScalarDB home" 
-    url: / # Don't change this URL. This links back to the parent product home page.
+    url: /docs/ # Don't change this URL. This links back to the parent product home page.
   - title: "ScalarDB 3.8 Community"
     children:
   # Get Started docs
   - title: "Get Started"
     children:
       - title: "Add ScalarDB to your build"
-        url: /3.8/add-scalardb-to-your-build
+        url: /docs/3.8/add-scalardb-to-your-build
       - title: "Setting Up Your Database Environment"
-        url: /3.8/getting-started
+        url: /docs/3.8/getting-started
       # - title: "Getting Started with ScalarDB on Cassandra"
-      #   url: /3.8/getting-started-with-scalardb-on-cassandra
+      #   url: /docs/3.8/getting-started-with-scalardb-on-cassandra
       # - title: "Getting Started with ScalarDB on Cosmos DB"
-      #   url: /3.8/getting-started-with-scalardb-on-cosmosdb
+      #   url: /docs/3.8/getting-started-with-scalardb-on-cosmosdb
       # - title: "Getting Started with ScalarDB on DynamoDB"
-      #   url: /3.8/getting-started-with-scalardb-on-dynamodb
+      #   url: /docs/3.8/getting-started-with-scalardb-on-dynamodb
       # - title: "Getting Started with ScalarDB on JDBC databases"
-      #   url: /3.8/getting-started-with-scalardb-on-jdbc
+      #   url: /docs/3.8/getting-started-with-scalardb-on-jdbc
       - title: "Getting Started with ScalarDB"
-        url: /3.8/getting-started-with-scalardb
+        url: /docs/3.8/getting-started-with-scalardb
       - title: "Getting Started with Scalar Helm Charts"
-        url: /3.8/helm-charts/getting-started-scalar-helm-charts
+        url: /docs/3.8/helm-charts/getting-started-scalar-helm-charts
       - title: "Getting Started with Helm Charts (ScalarDB Server)"
-        url: /3.8/helm-charts/getting-started-scalardb
+        url: /docs/3.8/helm-charts/getting-started-scalardb
   # Samples docs
   - title: "Samples" 
     children:
       # - title: "ScalarDB Samples" 
-      #   url: /3.8/scalardb-samples
+      #   url: /docs/3.8/scalardb-samples
       - title: "ScalarDB Samples"
-        url: /3.8/scalardb-samples/scalardb-sample
+        url: /docs/3.8/scalardb-samples/scalardb-sample
       # - title: "ScalarDB Server Sample"
-      #   url: /3.8/scalardb-samples/scalardb-server-sample
+      #   url: /docs/3.8/scalardb-samples/scalardb-server-sample
       # - title: "Microservice Transaction Sample"
-      #   url: /3.8/scalardb-samples/microservice-transaction-sample
+      #   url: /docs/3.8/scalardb-samples/microservice-transaction-sample
       # - title: "Multi-Storage Transaction Sample"
-      #   url: /3.8/scalardb-samples/multi-storage-transaction-sample
+      #   url: /docs/3.8/scalardb-samples/multi-storage-transaction-sample
       # - title: "ScalarDB GraphQL Sample"
-      #   url: /3.8/scalardb-samples/scalardb-graphql-sample
+      #   url: /docs/3.8/scalardb-samples/scalardb-graphql-sample
       - title: "Spring Data Multi-Storage Transaction Sample"
-        url: /3.8/scalardb-samples/spring-data-multi-storage-transaction-sample
+        url: /docs/3.8/scalardb-samples/spring-data-multi-storage-transaction-sample
       - title: "Spring Data Sample"
-        url: /3.8/scalardb-samples/spring-data-sample
+        url: /docs/3.8/scalardb-samples/spring-data-sample
       - title: "ScalarDB Deployment Sample on Kubernetes (Multi-Storage Transactions)"
-        url: /3.8/helm-charts/samples/scalardb/scalardb-multi-storage-sample
+        url: /docs/3.8/helm-charts/samples/scalardb/scalardb-multi-storage-sample
   # Develop docs
   - title: "Develop"
     children:
       - title: "ScalarDB Java API Guide"
-        url: /3.8/api-guide
+        url: /docs/3.8/api-guide
       - title: "ScalarDB Schema Loader"
-        url: /3.8/schema-loader
+        url: /docs/3.8/schema-loader
       - title: "Multi-storage Transactions"
-        url: /3.8/multi-storage-transactions
+        url: /docs/3.8/multi-storage-transactions
       - title: "Two-Phase Commit Transactions"
-        url: /3.8/two-phase-commit-transactions
+        url: /docs/3.8/two-phase-commit-transactions
      
   # Deploy docs
   - title: "Deploy"
     children:
       - title: "ScalarDB Server"
-        url: /3.8/scalardb-server
+        url: /docs/3.8/scalardb-server
       - title: "Configure a custom values file for ScalarDB Server"
-        url: /3.8/helm-charts/configure-custom-values-scalardb
+        url: /docs/3.8/helm-charts/configure-custom-values-scalardb
       - title: "Configure a custom values file for Scalar Helm Charts"
-        url: /3.8/helm-charts/configure-custom-values-file
+        url: /docs/3.8/helm-charts/configure-custom-values-file
       - title: "Configure a custom values file for Scalar Envoy"
-        url: /3.8/helm-charts/configure-custom-values-envoy
+        url: /docs/3.8/helm-charts/configure-custom-values-envoy
       - title: "Configure a custom values file for ScalarDB GraphQL"
-        url: /3.8/helm-charts/configure-custom-values-scalardb-graphql
+        url: /docs/3.8/helm-charts/configure-custom-values-scalardb-graphql
       - title: "How to use Secret resources to pass the credentials as the environment variables into the properties file"
-        url: /3.8/helm-charts/use-secret-for-credentilas
+        url: /docs/3.8/helm-charts/use-secret-for-credentilas
       - title: "Deploy Scalar products using Scalar Helm Charts"
-        url: /3.8/helm-charts/how-to-deploy-scalar-products
+        url: /docs/3.8/helm-charts/how-to-deploy-scalar-products
       - title: "How to deploy ScalarDB Server"
-        url: /3.8/helm-charts/how-to-deploy-scalardb
+        url: /docs/3.8/helm-charts/how-to-deploy-scalardb
       - title: "How to deploy ScalarDB GraphQL"
-        url: /3.8/helm-charts/how-to-deploy-scalardb-graphql      
+        url: /docs/3.8/helm-charts/how-to-deploy-scalardb-graphql      
   # Manage docs
   - title: "Manage"
     children:
       - title: "How to Backup and Restore Databases Used Through ScalarDB"
-        url: /3.8/backup-restore
+        url: /docs/3.8/backup-restore
   # Migrate docs
   # - title: "Migrate"
   #   children:
@@ -262,103 +250,103 @@ versions:
   - title: "Reference"
     children:      
       - title: "ScalarDB Design Document"
-        url: /3.8/design
+        url: /docs/3.8/design
       - title: "ScalarDB Supported Databases"
-        url: /3.8/scalardb-supported-databases
+        url: /docs/3.8/scalardb-supported-databases
       - title: "Requirements in the Underlying Databases of ScalarDB"
-        url: /3.8/requirements
+        url: /docs/3.8/requirements
       - title: "Configurations for Consensus Commit"
-        url: /3.8/configurations-for-consensus-commit
+        url: /docs/3.8/configurations-for-consensus-commit
       - title: "Storage Abstraction"
-        url: /3.8/storage-abstraction
+        url: /docs/3.8/storage-abstraction
       - title: "ScalarDB Benchmarks"
-        url: /3.8/scalardb-benchmarks
+        url: /docs/3.8/scalardb-benchmarks
 
 # Need to add remaining version navigation here once we're happy with navigation titles. Will need to confirm docs exist across versions after.
 
 "3.7":
   - title: "⬅ ScalarDB home" 
-    url: / # Don't change this URL. This links back to the parent product home page.
+    url: /docs/ # Don't change this URL. This links back to the parent product home page.
   - title: "ScalarDB 3.7 Community"
     children:
   # Get Started docs
   - title: "Get Started"
     children:
       - title: "Add ScalarDB to your build"
-        url: /3.7/add-scalardb-to-your-build
+        url: /docs/3.7/add-scalardb-to-your-build
       - title: "Setting Up Your Database Environment"
-        url: /3.7/getting-started
+        url: /docs/3.7/getting-started
       # - title: "Getting Started with ScalarDB on Cassandra"
-      #   url: /3.7/getting-started-with-scalardb-on-cassandra
+      #   url: /docs/3.7/getting-started-with-scalardb-on-cassandra
       # - title: "Getting Started with ScalarDB on Cosmos DB"
-      #   url: /3.7/getting-started-with-scalardb-on-cosmosdb
+      #   url: /docs/3.7/getting-started-with-scalardb-on-cosmosdb
       # - title: "Getting Started with ScalarDB on DynamoDB"
-      #   url: /3.7/getting-started-with-scalardb-on-dynamodb
+      #   url: /docs/3.7/getting-started-with-scalardb-on-dynamodb
       # - title: "Getting Started with ScalarDB on JDBC databases"
-      #   url: /3.7/getting-started-with-scalardb-on-jdbc
+      #   url: /docs/3.7/getting-started-with-scalardb-on-jdbc
       - title: "Getting Started with ScalarDB"
-        url: /3.7/getting-started-with-scalardb
+        url: /docs/3.7/getting-started-with-scalardb
       - title: "Getting Started with Scalar Helm Charts"
-        url: /3.7/helm-charts/getting-started-scalar-helm-charts
+        url: /docs/3.7/helm-charts/getting-started-scalar-helm-charts
       - title: "Getting Started with Helm Charts (ScalarDB Server)"
-        url: /3.7/helm-charts/getting-started-scalardb
+        url: /docs/3.7/helm-charts/getting-started-scalardb
   # Samples docs
   - title: "Samples" 
     children:
       # - title: "ScalarDB Samples" 
-      #   url: /3.7/scalardb-samples
+      #   url: /docs/3.7/scalardb-samples
       - title: "ScalarDB Samples"
-        url: /3.7/scalardb-samples/scalardb-sample
+        url: /docs/3.7/scalardb-samples/scalardb-sample
       # - title: "ScalarDB Server Sample"
-      #   url: /3.7/scalardb-samples/scalardb-server-sample
+      #   url: /docs/3.7/scalardb-samples/scalardb-server-sample
       # - title: "Microservice Transaction Sample"
-      #   url: /3.7/scalardb-samples/microservice-transaction-sample
+      #   url: /docs/3.7/scalardb-samples/microservice-transaction-sample
       # - title: "Multi-Storage Transaction Sample"
-      #   url: /3.7/scalardb-samples/multi-storage-transaction-sample
+      #   url: /docs/3.7/scalardb-samples/multi-storage-transaction-sample
       # - title: "ScalarDB GraphQL Sample"
-      #   url: /3.7/scalardb-samples/scalardb-graphql-sample
+      #   url: /docs/3.7/scalardb-samples/scalardb-graphql-sample
       - title: "Spring Data Multi-Storage Transaction Sample"
-        url: /3.7/scalardb-samples/spring-data-multi-storage-transaction-sample
+        url: /docs/3.7/scalardb-samples/spring-data-multi-storage-transaction-sample
       - title: "Spring Data Sample"
-        url: /3.7/scalardb-samples/spring-data-sample
+        url: /docs/3.7/scalardb-samples/spring-data-sample
       - title: "ScalarDB Deployment Sample on Kubernetes (Multi-Storage Transactions)"
-        url: /3.7/helm-charts/samples/scalardb/scalardb-multi-storage-sample
+        url: /docs/3.7/helm-charts/samples/scalardb/scalardb-multi-storage-sample
   # Develop docs
   - title: "Develop"
     children:
       - title: "ScalarDB Java API Guide"
-        url: /3.7/api-guide
+        url: /docs/3.7/api-guide
       - title: "Multi-storage Transactions"
-        url: /3.7/multi-storage-transactions
+        url: /docs/3.7/multi-storage-transactions
       - title: "Two-Phase Commit Transactions"
-        url: /3.7/two-phase-commit-transactions
+        url: /docs/3.7/two-phase-commit-transactions
    
   # Deploy docs
   - title: "Deploy"
     children:
       - title: "ScalarDB Server"
-        url: /3.7/scalardb-server
+        url: /docs/3.7/scalardb-server
       - title: "Configure a custom values file for ScalarDB Server"
-        url: /3.7/helm-charts/configure-custom-values-scalardb
+        url: /docs/3.7/helm-charts/configure-custom-values-scalardb
       - title: "Configure a custom values file for Scalar Helm Charts"
-        url: /3.7/helm-charts/configure-custom-values-file
+        url: /docs/3.7/helm-charts/configure-custom-values-file
       - title: "Configure a custom values file for Scalar Envoy"
-        url: /3.7/helm-charts/configure-custom-values-envoy
+        url: /docs/3.7/helm-charts/configure-custom-values-envoy
       - title: "Configure a custom values file for ScalarDB GraphQL"
-        url: /3.7/helm-charts/configure-custom-values-scalardb-graphql
+        url: /docs/3.7/helm-charts/configure-custom-values-scalardb-graphql
       - title: "How to use Secret resources to pass the credentials as the environment variables into the properties file"
-        url: /3.7/helm-charts/use-secret-for-credentilas
+        url: /docs/3.7/helm-charts/use-secret-for-credentilas
       - title: "Deploy Scalar products using Scalar Helm Charts"
-        url: /3.7/helm-charts/how-to-deploy-scalar-products
+        url: /docs/3.7/helm-charts/how-to-deploy-scalar-products
       - title: "How to deploy ScalarDB Server"
-        url: /3.7/helm-charts/how-to-deploy-scalardb
+        url: /docs/3.7/helm-charts/how-to-deploy-scalardb
       - title: "How to deploy ScalarDB GraphQL"
-        url: /3.7/helm-charts/how-to-deploy-scalardb-graphql      
+        url: /docs/3.7/helm-charts/how-to-deploy-scalardb-graphql      
   # Manage docs
   - title: "Manage"
     children:
       - title: "How to Backup and Restore Databases Used Through ScalarDB"
-        url: /3.7/backup-restore
+        url: /docs/3.7/backup-restore
   # Migrate docs
   # - title: "Migrate"
   #   children:
@@ -368,100 +356,100 @@ versions:
   - title: "Reference"
     children:      
       - title: "ScalarDB Design Document"
-        url: /3.7/design
+        url: /docs/3.7/design
       - title: "ScalarDB Supported Databases"
-        url: /3.7/scalardb-supported-databases
+        url: /docs/3.7/scalardb-supported-databases
       - title: "Requirements in the Underlying Databases of ScalarDB"
-        url: /3.7/requirements
+        url: /docs/3.7/requirements
       - title: "Configurations for Consensus Commit"
-        url: /3.7/configurations-for-consensus-commit
+        url: /docs/3.7/configurations-for-consensus-commit
       - title: "Storage Abstraction"
-        url: /3.7/storage-abstraction
+        url: /docs/3.7/storage-abstraction
       - title: "ScalarDB Benchmarks"
-        url: /3.7/scalardb-benchmarks
+        url: /docs/3.7/scalardb-benchmarks
 
 "3.6":
   - title: "⬅ ScalarDB home" 
-    url: / # Don't change this URL. This links back to the parent product home page.
+    url: /docs/ # Don't change this URL. This links back to the parent product home page.
   - title: "ScalarDB 3.6 Community"
     children:
   # Get Started docs
   - title: "Get Started"
     children:
       - title: "Add ScalarDB to your build"
-        url: /3.6/add-scalardb-to-your-build
+        url: /docs/3.6/add-scalardb-to-your-build
       - title: "Setting Up Your Database Environment"
-        url: /3.6/getting-started
+        url: /docs/3.6/getting-started
       # - title: "Getting Started with ScalarDB on Cassandra"
-      #   url: /3.6/getting-started-with-scalardb-on-cassandra
+      #   url: /docs/3.6/getting-started-with-scalardb-on-cassandra
       # - title: "Getting Started with ScalarDB on Cosmos DB"
-      #   url: /3.6/getting-started-with-scalardb-on-cosmosdb
+      #   url: /docs/3.6/getting-started-with-scalardb-on-cosmosdb
       # - title: "Getting Started with ScalarDB on DynamoDB"
-      #   url: /3.6/getting-started-with-scalardb-on-dynamodb
+      #   url: /docs/3.6/getting-started-with-scalardb-on-dynamodb
       # - title: "Getting Started with ScalarDB on JDBC databases"
-      #   url: /3.6/getting-started-with-scalardb-on-jdbc
+      #   url: /docs/3.6/getting-started-with-scalardb-on-jdbc
       - title: "Getting Started with ScalarDB"
-        url: /3.6/getting-started-with-scalardb
+        url: /docs/3.6/getting-started-with-scalardb
       - title: "Getting Started with Scalar Helm Charts"
-        url: /3.6/helm-charts/getting-started-scalar-helm-charts
+        url: /docs/3.6/helm-charts/getting-started-scalar-helm-charts
       - title: "Getting Started with Helm Charts (ScalarDB Server)"
-        url: /3.6/helm-charts/getting-started-scalardb
+        url: /docs/3.6/helm-charts/getting-started-scalardb
   # Samples docs
   - title: "Samples" 
     children:
       # - title: "ScalarDB Samples" 
-      #   url: /3.6/scalardb-samples
+      #   url: /docs/3.6/scalardb-samples
       - title: "ScalarDB Samples"
-        url: /3.6/scalardb-samples/scalardb-sample
+        url: /docs/3.6/scalardb-samples/scalardb-sample
       # - title: "ScalarDB Server Sample"
-      #   url: /3.6/scalardb-samples/scalardb-server-sample
+      #   url: /docs/3.6/scalardb-samples/scalardb-server-sample
       # - title: "Microservice Transaction Sample"
-      #   url: /3.6/scalardb-samples/microservice-transaction-sample
+      #   url: /docs/3.6/scalardb-samples/microservice-transaction-sample
       # - title: "Multi-Storage Transaction Sample"
-      #   url: /3.6/scalardb-samples/multi-storage-transaction-sample
+      #   url: /docs/3.6/scalardb-samples/multi-storage-transaction-sample
       # - title: "ScalarDB GraphQL Sample"
-      #   url: /3.6/scalardb-samples/scalardb-graphql-sample
+      #   url: /docs/3.6/scalardb-samples/scalardb-graphql-sample
       - title: "Spring Data Multi-Storage Transaction Sample"
-        url: /3.6/scalardb-samples/spring-data-multi-storage-transaction-sample
+        url: /docs/3.6/scalardb-samples/spring-data-multi-storage-transaction-sample
       - title: "Spring Data Sample"
-        url: /3.6/scalardb-samples/spring-data-sample
+        url: /docs/3.6/scalardb-samples/spring-data-sample
       - title: "ScalarDB Deployment Sample on Kubernetes (Multi-Storage Transactions)"
-        url: /3.6/helm-charts/samples/scalardb/scalardb-multi-storage-sample
+        url: /docs/3.6/helm-charts/samples/scalardb/scalardb-multi-storage-sample
   # Develop docs
   - title: "Develop"
     children:
       - title: "ScalarDB Java API Guide"
-        url: /3.6/api-guide
+        url: /docs/3.6/api-guide
       - title: "Multi-storage Transactions"
-        url: /3.6/multi-storage-transactions
+        url: /docs/3.6/multi-storage-transactions
       - title: "Two-Phase Commit Transactions"
-        url: /3.6/two-phase-commit-transactions
+        url: /docs/3.6/two-phase-commit-transactions
   # Deploy docs
   - title: "Deploy"
     children:
       - title: "ScalarDB Server"
-        url: /3.6/scalardb-server
+        url: /docs/3.6/scalardb-server
       - title: "Configure a custom values file for ScalarDB Server"
-        url: /3.6/helm-charts/configure-custom-values-scalardb
+        url: /docs/3.6/helm-charts/configure-custom-values-scalardb
       - title: "Configure a custom values file for Scalar Helm Charts"
-        url: /3.6/helm-charts/configure-custom-values-file
+        url: /docs/3.6/helm-charts/configure-custom-values-file
       - title: "Configure a custom values file for Scalar Envoy"
-        url: /3.6/helm-charts/configure-custom-values-envoy
+        url: /docs/3.6/helm-charts/configure-custom-values-envoy
       - title: "Configure a custom values file for ScalarDB GraphQL"
-        url: /3.6/helm-charts/configure-custom-values-scalardb-graphql
+        url: /docs/3.6/helm-charts/configure-custom-values-scalardb-graphql
       - title: "How to use Secret resources to pass the credentials as the environment variables into the properties file"
-        url: /3.6/helm-charts/use-secret-for-credentilas
+        url: /docs/3.6/helm-charts/use-secret-for-credentilas
       - title: "Deploy Scalar products using Scalar Helm Charts"
-        url: /3.6/helm-charts/how-to-deploy-scalar-products
+        url: /docs/3.6/helm-charts/how-to-deploy-scalar-products
       - title: "How to deploy ScalarDB Server"
-        url: /3.6/helm-charts/how-to-deploy-scalardb
+        url: /docs/3.6/helm-charts/how-to-deploy-scalardb
       - title: "How to deploy ScalarDB GraphQL"
-        url: /3.6/helm-charts/how-to-deploy-scalardb-graphql      
+        url: /docs/3.6/helm-charts/how-to-deploy-scalardb-graphql      
   # Manage docs
   - title: "Manage"
     children:
       - title: "How to Backup and Restore Databases Used Through ScalarDB"
-        url: /3.6/backup-restore
+        url: /docs/3.6/backup-restore
   # Migrate docs
   # - title: "Migrate"
   #   children:
@@ -471,100 +459,100 @@ versions:
   - title: "Reference"
     children:      
       - title: "ScalarDB Design Document"
-        url: /3.6/design
+        url: /docs/3.6/design
       - title: "ScalarDB Supported Databases"
-        url: /3.6/scalardb-supported-databases
+        url: /docs/3.6/scalardb-supported-databases
       - title: "Requirements in the Underlying Databases of ScalarDB"
-        url: /3.6/requirements
+        url: /docs/3.6/requirements
       - title: "Configurations for Consensus Commit"
-        url: /3.6/configurations-for-consensus-commit
+        url: /docs/3.6/configurations-for-consensus-commit
       - title: "Storage Abstraction"
-        url: /3.6/storage-abstraction
+        url: /docs/3.6/storage-abstraction
       - title: "ScalarDB Benchmarks"
-        url: /3.6/scalardb-benchmarks
+        url: /docs/3.6/scalardb-benchmarks
 
 "3.5":
   - title: "⬅ ScalarDB home" 
-    url: / # Don't change this URL. This links back to the parent product home page.
+    url: /docs/ # Don't change this URL. This links back to the parent product home page.
   - title: "ScalarDB 3.5"
     children:
   # Get Started docs
   - title: "Get Started"
     children:
       - title: "Add ScalarDB to your build"
-        url: /3.5/add-scalardb-to-your-build
+        url: /docs/3.5/add-scalardb-to-your-build
       - title: "Setting Up Your Database Environment"
-        url: /3.5/getting-started
+        url: /docs/3.5/getting-started
       # - title: "Getting Started with ScalarDB on Cassandra"
-      #   url: /3.5/getting-started-with-scalardb-on-cassandra
+      #   url: /docs/3.5/getting-started-with-scalardb-on-cassandra
       # - title: "Getting Started with ScalarDB on Cosmos DB"
-      #   url: /3.5/getting-started-with-scalardb-on-cosmosdb
+      #   url: /docs/3.5/getting-started-with-scalardb-on-cosmosdb
       # - title: "Getting Started with ScalarDB on DynamoDB"
-      #   url: /3.5/getting-started-with-scalardb-on-dynamodb
+      #   url: /docs/3.5/getting-started-with-scalardb-on-dynamodb
       # - title: "Getting Started with ScalarDB on JDBC databases"
-      #   url: /3.5/getting-started-with-scalardb-on-jdbc
+      #   url: /docs/3.5/getting-started-with-scalardb-on-jdbc
       - title: "Getting Started with ScalarDB"
-        url: /3.5/getting-started-with-scalardb
+        url: /docs/3.5/getting-started-with-scalardb
       - title: "Getting Started with Scalar Helm Charts"
-        url: /3.5/helm-charts/getting-started-scalar-helm-charts
+        url: /docs/3.5/helm-charts/getting-started-scalar-helm-charts
       - title: "Getting Started with Helm Charts (ScalarDB Server)"
-        url: /3.5/helm-charts/getting-started-scalardb
+        url: /docs/3.5/helm-charts/getting-started-scalardb
   # Samples docs
   - title: "Samples" 
     children:
       # - title: "ScalarDB Samples" 
-      #   url: /3.5/scalardb-samples
+      #   url: /docs/3.5/scalardb-samples
       - title: "ScalarDB Samples"
-        url: /3.5/scalardb-samples/scalardb-sample
+        url: /docs/3.5/scalardb-samples/scalardb-sample
       # - title: "ScalarDB Server Sample"
-      #   url: /3.5/scalardb-samples/scalardb-server-sample
+      #   url: /docs/3.5/scalardb-samples/scalardb-server-sample
       # - title: "Microservice Transaction Sample"
-      #   url: /3.5/scalardb-samples/microservice-transaction-sample
+      #   url: /docs/3.5/scalardb-samples/microservice-transaction-sample
       # - title: "Multi-Storage Transaction Sample"
-      #   url: /3.5/scalardb-samples/multi-storage-transaction-sample
+      #   url: /docs/3.5/scalardb-samples/multi-storage-transaction-sample
       # - title: "ScalarDB GraphQL Sample"
-      #   url: /3.5/scalardb-samples/scalardb-graphql-sample
+      #   url: /docs/3.5/scalardb-samples/scalardb-graphql-sample
       - title: "Spring Data Multi-Storage Transaction Sample"
-        url: /3.5/scalardb-samples/spring-data-multi-storage-transaction-sample
+        url: /docs/3.5/scalardb-samples/spring-data-multi-storage-transaction-sample
       - title: "Spring Data Sample"
-        url: /3.5/scalardb-samples/spring-data-sample
+        url: /docs/3.5/scalardb-samples/spring-data-sample
       - title: "ScalarDB Deployment Sample on Kubernetes (Multi-Storage Transactions)"
-        url: /3.5/helm-charts/samples/scalardb/scalardb-multi-storage-sample
+        url: /docs/3.5/helm-charts/samples/scalardb/scalardb-multi-storage-sample
   # Develop docs
   - title: "Develop"
     children:
       - title: "ScalarDB Java API Guide"
-        url: /3.5/api-guide
+        url: /docs/3.5/api-guide
       - title: "Multi-storage Transactions"
-        url: /3.5/multi-storage-transactions
+        url: /docs/3.5/multi-storage-transactions
       - title: "Two-Phase Commit Transactions"
-        url: /3.5/two-phase-commit-transactions
+        url: /docs/3.5/two-phase-commit-transactions
   # Deploy docs
   - title: "Deploy"
     children:
       - title: "ScalarDB Server"
-        url: /3.5/scalardb-server
+        url: /docs/3.5/scalardb-server
       - title: "Configure a custom values file for ScalarDB Server"
-        url: /3.5/helm-charts/configure-custom-values-scalardb
+        url: /docs/3.5/helm-charts/configure-custom-values-scalardb
       - title: "Configure a custom values file for Scalar Helm Charts"
-        url: /3.5/helm-charts/configure-custom-values-file
+        url: /docs/3.5/helm-charts/configure-custom-values-file
       - title: "Configure a custom values file for Scalar Envoy"
-        url: /3.5/helm-charts/configure-custom-values-envoy
+        url: /docs/3.5/helm-charts/configure-custom-values-envoy
       - title: "Configure a custom values file for ScalarDB GraphQL"
-        url: /3.5/helm-charts/configure-custom-values-scalardb-graphql
+        url: /docs/3.5/helm-charts/configure-custom-values-scalardb-graphql
       - title: "How to use Secret resources to pass the credentials as the environment variables into the properties file"
-        url: /3.5/helm-charts/use-secret-for-credentilas
+        url: /docs/3.5/helm-charts/use-secret-for-credentilas
       - title: "Deploy Scalar products using Scalar Helm Charts"
-        url: /3.5/helm-charts/how-to-deploy-scalar-products
+        url: /docs/3.5/helm-charts/how-to-deploy-scalar-products
       - title: "How to deploy ScalarDB Server"
-        url: /3.5/helm-charts/how-to-deploy-scalardb
+        url: /docs/3.5/helm-charts/how-to-deploy-scalardb
       - title: "How to deploy ScalarDB GraphQL"
-        url: /3.5/helm-charts/how-to-deploy-scalardb-graphql      
+        url: /docs/3.5/helm-charts/how-to-deploy-scalardb-graphql      
   # Manage docs
   - title: "Manage"
     children:
       - title: "How to Backup and Restore Databases Used Through ScalarDB"
-        url: /3.5/backup-restore
+        url: /docs/3.5/backup-restore
   # Migrate docs
   # - title: "Migrate"
   #   children:
@@ -574,101 +562,101 @@ versions:
   - title: "Reference"
     children:      
       - title: "ScalarDB Design Document"
-        url: /3.5/design
+        url: /docs/3.5/design
       - title: "ScalarDB Supported Databases"
-        url: /3.5/scalardb-supported-databases
+        url: /docs/3.5/scalardb-supported-databases
       - title: "Requirements in the Underlying Databases of ScalarDB"
-        url: /3.5/requirements
+        url: /docs/3.5/requirements
       - title: "Configurations for Consensus Commit"
-        url: /3.5/configurations-for-consensus-commit
+        url: /docs/3.5/configurations-for-consensus-commit
       - title: "Storage Abstraction"
-        url: /3.5/storage-abstraction
+        url: /docs/3.5/storage-abstraction
       - title: "ScalarDB Benchmarks"
-        url: /3.5/scalardb-benchmarks
+        url: /docs/3.5/scalardb-benchmarks
 
 "3.4":
   - title: "⬅ ScalarDB home" 
-    url: / # Don't change this URL. This links back to the parent product home page.
+    url: /docs/ # Don't change this URL. This links back to the parent product home page.
   - title: "ScalarDB 3.4 Community"
     children:
   # Get Started docs
   - title: "Get Started"
     children:
       - title: "Add ScalarDB to your build"
-        url: /3.4/add-scalardb-to-your-build
+        url: /docs/3.4/add-scalardb-to-your-build
       - title: "Setting Up Your Database Environment"
-        url: /3.4/getting-started
+        url: /docs/3.4/getting-started
       # - title: "Getting Started with ScalarDB on Cassandra"
-      #   url: /3.4/getting-started-with-scalardb-on-cassandra
+      #   url: /docs/3.4/getting-started-with-scalardb-on-cassandra
       # - title: "Getting Started with ScalarDB on Cosmos DB"
-      #   url: /3.4/getting-started-with-scalardb-on-cosmosdb
+      #   url: /docs/3.4/getting-started-with-scalardb-on-cosmosdb
       # - title: "Getting Started with ScalarDB on DynamoDB"
-      #   url: /3.4/getting-started-with-scalardb-on-dynamodb
+      #   url: /docs/3.4/getting-started-with-scalardb-on-dynamodb
       # - title: "Getting Started with ScalarDB on JDBC databases"
-      #   url: /3.4/getting-started-with-scalardb-on-jdbc
+      #   url: /docs/3.4/getting-started-with-scalardb-on-jdbc
       - title: "Getting Started with ScalarDB"
-        url: /3.4/getting-started-with-scalardb
+        url: /docs/3.4/getting-started-with-scalardb
       - title: "Getting Started with Scalar Helm Charts"
-        url: /3.4/helm-charts/getting-started-scalar-helm-charts
+        url: /docs/3.4/helm-charts/getting-started-scalar-helm-charts
       - title: "Getting Started with Helm Charts (ScalarDB Server)"
-        url: /3.4/helm-charts/getting-started-scalardb
+        url: /docs/3.4/helm-charts/getting-started-scalardb
   # Samples docs
   - title: "Samples" 
     children:
       # - title: "ScalarDB Samples" 
-      #   url: /3.4/scalardb-samples
+      #   url: /docs/3.4/scalardb-samples
       - title: "ScalarDB Samples"
-        url: /3.4/scalardb-samples/scalardb-sample
+        url: /docs/3.4/scalardb-samples/scalardb-sample
       # - title: "ScalarDB Server Sample"
-      #   url: /3.4/scalardb-samples/scalardb-server-sample
+      #   url: /docs/3.4/scalardb-samples/scalardb-server-sample
       # - title: "Microservice Transaction Sample"
-      #   url: /3.4/scalardb-samples/microservice-transaction-sample
+      #   url: /docs/3.4/scalardb-samples/microservice-transaction-sample
       # - title: "Multi-Storage Transaction Sample"
-      #   url: /3.4/scalardb-samples/multi-storage-transaction-sample
+      #   url: /docs/3.4/scalardb-samples/multi-storage-transaction-sample
       # - title: "ScalarDB GraphQL Sample"
-      #   url: /3.4/scalardb-samples/scalardb-graphql-sample
+      #   url: /docs/3.4/scalardb-samples/scalardb-graphql-sample
       - title: "Spring Data Multi-Storage Transaction Sample"
-        url: /3.4/scalardb-samples/spring-data-multi-storage-transaction-sample
+        url: /docs/3.4/scalardb-samples/spring-data-multi-storage-transaction-sample
       - title: "Spring Data Sample"
-        url: /3.4/scalardb-samples/spring-data-sample
+        url: /docs/3.4/scalardb-samples/spring-data-sample
       - title: "ScalarDB Deployment Sample on Kubernetes (Multi-Storage Transactions)"
-        url: /3.4/helm-charts/samples/scalardb/scalardb-multi-storage-sample
+        url: /docs/3.4/helm-charts/samples/scalardb/scalardb-multi-storage-sample
   # Develop docs
   - title: "Develop"
     children:
       - title: "ScalarDB Java API Guide"
-        url: /3.4/api-guide
+        url: /docs/3.4/api-guide
       - title: "Multi-storage Transactions"
-        url: /3.4/multi-storage-transactions
+        url: /docs/3.4/multi-storage-transactions
       - title: "Two-Phase Commit Transactions"
-        url: /3.4/two-phase-commit-transactions
+        url: /docs/3.4/two-phase-commit-transactions
 
   # Deploy docs
   - title: "Deploy"
     children:
       - title: "ScalarDB Server"
-        url: /3.4/scalardb-server
+        url: /docs/3.4/scalardb-server
       - title: "Configure a custom values file for ScalarDB Server"
-        url: /3.4/helm-charts/configure-custom-values-scalardb
+        url: /docs/3.4/helm-charts/configure-custom-values-scalardb
       - title: "Configure a custom values file for Scalar Helm Charts"
-        url: /3.4/helm-charts/configure-custom-values-file
+        url: /docs/3.4/helm-charts/configure-custom-values-file
       - title: "Configure a custom values file for Scalar Envoy"
-        url: /3.4/helm-charts/configure-custom-values-envoy
+        url: /docs/3.4/helm-charts/configure-custom-values-envoy
       - title: "Configure a custom values file for ScalarDB GraphQL"
-        url: /3.4/helm-charts/configure-custom-values-scalardb-graphql
+        url: /docs/3.4/helm-charts/configure-custom-values-scalardb-graphql
       - title: "How to use Secret resources to pass the credentials as the environment variables into the properties file"
-        url: /3.4/helm-charts/use-secret-for-credentilas
+        url: /docs/3.4/helm-charts/use-secret-for-credentilas
       - title: "Deploy Scalar products using Scalar Helm Charts"
-        url: /3.4/helm-charts/how-to-deploy-scalar-products
+        url: /docs/3.4/helm-charts/how-to-deploy-scalar-products
       - title: "How to deploy ScalarDB Server"
-        url: /3.4/helm-charts/how-to-deploy-scalardb
+        url: /docs/3.4/helm-charts/how-to-deploy-scalardb
       - title: "How to deploy ScalarDB GraphQL"
-        url: /3.4/helm-charts/how-to-deploy-scalardb-graphql      
+        url: /docs/3.4/helm-charts/how-to-deploy-scalardb-graphql      
   # Manage docs
   - title: "Manage"
     children:
       - title: "How to Backup and Restore Databases Used Through ScalarDB"
-        url: /3.4/backup-restore
+        url: /docs/3.4/backup-restore
   # Migrate docs
   # - title: "Migrate"
   #   children:
@@ -678,17 +666,17 @@ versions:
   - title: "Reference"
     children:      
       - title: "ScalarDB Design Document"
-        url: /3.4/design
+        url: /docs/3.4/design
       - title: "ScalarDB Supported Databases"
-        url: /3.4/scalardb-supported-databases
+        url: /docs/3.4/scalardb-supported-databases
       - title: "Requirements in the Underlying Databases of ScalarDB"
-        url: /3.4/requirements
+        url: /docs/3.4/requirements
       - title: "Configurations for Consensus Commit"
-        url: /3.4/configurations-for-consensus-commit
+        url: /docs/3.4/configurations-for-consensus-commit
       - title: "Storage Abstraction"
-        url: /3.4/storage-abstraction
+        url: /docs/3.4/storage-abstraction
       - title: "ScalarDB Benchmarks"
-        url: /3.4/scalardb-benchmarks
+        url: /docs/3.4/scalardb-benchmarks
 
 # ----- Navigation template for versions ----- #
 
