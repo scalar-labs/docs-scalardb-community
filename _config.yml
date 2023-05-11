@@ -16,7 +16,7 @@ title                    : "ScalarDB Community documentation &#124; Scalar, Inc.
 title_separator          : "-"
 #subtitle                 : ""
 description              : &description "Community version of the cloud-native universal transaction manager in microservice era" # the official description of the parent product
-url                      : "https://scalar-labs.github.io" # the base hostname & protocol for your site.
+url                      : "https://scalardb-community.scalar-labs.com" # the base hostname & protocol for your site.
 baseurl                  : "" # Leave this blank when publishing. If you need to run this site locally, add the value "/docs". When selecting the "Scalar Docs" logo, you will be taken to the Scalar Docs site (`https://docs.scalar-labs.com/`). For the URL, see `includes/masthead.html`.
 repository               : "scalar-labs/docs-scalardb-community" # the repository path of the Scalar parent product (e.g., scalar-labs/docs-scalardb)
 logo                     : "/assets/images/scalar-logo.png" # the Scalar company logo

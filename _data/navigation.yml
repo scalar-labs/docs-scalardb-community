@@ -35,7 +35,7 @@ versions:
   - version-top-title: "" # This title is taken from the `version_label` in `_data/ui-text.yml`.
     version-children:
     - version-title: "Licensed version"
-      version-url: "https://scalar-labs.github.io/docs-scalardb"
+      version-url: "https://scalardb-community.scalar-labs.com/docs"
     - version-title: "3.9 Community (latest)"
       version-url: /docs/3.9
     - version-title: "3.8 Community"
