@@ -521,8 +521,6 @@ versions:
   # Develop docs
   - title: "Develop"
     children:
-      - title: "ScalarDB Java API Guide"
-        url: /docs/3.5/api-guide
       - title: "Multi-storage Transactions"
         url: /docs/3.5/multi-storage-transactions
       - title: "Two-Phase Commit Transactions"
@@ -567,10 +565,6 @@ versions:
         url: /docs/3.5/scalardb-supported-databases
       - title: "Requirements in the Underlying Databases of ScalarDB"
         url: /docs/3.5/requirements
-      - title: "Configurations for Consensus Commit"
-        url: /docs/3.5/configurations-for-consensus-commit
-      - title: "Storage Abstraction"
-        url: /docs/3.5/storage-abstraction
       - title: "ScalarDB Benchmarks"
         url: /docs/3.5/scalardb-benchmarks
 
@@ -624,8 +618,6 @@ versions:
   # Develop docs
   - title: "Develop"
     children:
-      - title: "ScalarDB Java API Guide"
-        url: /docs/3.4/api-guide
       - title: "Multi-storage Transactions"
         url: /docs/3.4/multi-storage-transactions
       - title: "Two-Phase Commit Transactions"
@@ -671,10 +663,6 @@ versions:
         url: /docs/3.4/scalardb-supported-databases
       - title: "Requirements in the Underlying Databases of ScalarDB"
         url: /docs/3.4/requirements
-      - title: "Configurations for Consensus Commit"
-        url: /docs/3.4/configurations-for-consensus-commit
-      - title: "Storage Abstraction"
-        url: /docs/3.4/storage-abstraction
       - title: "ScalarDB Benchmarks"
         url: /docs/3.4/scalardb-benchmarks
 
