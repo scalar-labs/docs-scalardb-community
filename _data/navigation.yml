@@ -158,7 +158,7 @@ versions:
 
 "3.8":
   - title: "⬅ ScalarDB home" 
-    url: /docs/ # Don't change this URL. This links back to the parent product home page.
+    url: /docs # Don't change this URL. This links back to the parent product home page.
   - title: "ScalarDB 3.8 Community"
     children:
   # Get Started docs
@@ -266,7 +266,7 @@ versions:
 
 "3.7":
   - title: "⬅ ScalarDB home" 
-    url: /docs/ # Don't change this URL. This links back to the parent product home page.
+    url: /docs # Don't change this URL. This links back to the parent product home page.
   - title: "ScalarDB 3.7 Community"
     children:
   # Get Started docs
@@ -370,7 +370,7 @@ versions:
 
 "3.6":
   - title: "⬅ ScalarDB home" 
-    url: /docs/ # Don't change this URL. This links back to the parent product home page.
+    url: /docs # Don't change this URL. This links back to the parent product home page.
   - title: "ScalarDB 3.6 Community"
     children:
   # Get Started docs
@@ -473,7 +473,7 @@ versions:
 
 "3.5":
   - title: "⬅ ScalarDB home" 
-    url: /docs/ # Don't change this URL. This links back to the parent product home page.
+    url: /docs # Don't change this URL. This links back to the parent product home page.
   - title: "ScalarDB 3.5"
     children:
   # Get Started docs
@@ -576,7 +576,7 @@ versions:
 
 "3.4":
   - title: "⬅ ScalarDB home" 
-    url: /docs/ # Don't change this URL. This links back to the parent product home page.
+    url: /docs # Don't change this URL. This links back to the parent product home page.
   - title: "ScalarDB 3.4 Community"
     children:
   # Get Started docs
