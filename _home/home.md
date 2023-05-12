@@ -8,7 +8,7 @@ product_row:
     alt: ""
     title: "ScalarDB" # This title will appear in the header for the feature item on the home page; space is limited, so keep it short but descriptive; try to keep all feature item titles around the same length
     excerpt: "Cloud-native universal transaction manager" # Add a brief product description (approximately 8 words)
-    url: "3.9" # Add a relative URL to the product home page doc that is within this parent product docs site
+    url: "docs/3.9" # Add a relative URL to the product home page doc that is within this parent product docs site
     btn_class: "btn--primary"
     btn_label: "Get started" # This can be any other type of call to action
   - image_path: 
