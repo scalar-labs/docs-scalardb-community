@@ -80,10 +80,10 @@ versions:
   # Samples docs
   - title: "Samples" 
     children:
-      # - title: "ScalarDB Samples" 
-      #   url: /docs/3.9/scalardb-samples
-      - title: "ScalarDB Samples"
-        url: /docs/3.9/scalardb-samples/scalardb-sample
+      - title: "ScalarDB Samples" 
+        url: /docs/3.9/scalardb-samples
+      # - title: "ScalarDB Samples"
+      #   url: /docs/3.9/scalardb-samples/scalardb-sample
       # - title: "ScalarDB Server Sample"
       #   url: /docs/3.9/scalardb-samples/scalardb-server-sample
       # - title: "Microservice Transaction Sample"
@@ -185,10 +185,10 @@ versions:
   # Samples docs
   - title: "Samples" 
     children:
-      # - title: "ScalarDB Samples" 
-      #   url: /docs/3.8/scalardb-samples
-      - title: "ScalarDB Samples"
-        url: /docs/3.8/scalardb-samples/scalardb-sample
+      - title: "ScalarDB Samples" 
+        url: /docs/3.8/scalardb-samples
+      # - title: "ScalarDB Samples"
+      #   url: /docs/3.8/scalardb-samples/scalardb-sample
       # - title: "ScalarDB Server Sample"
       #   url: /docs/3.8/scalardb-samples/scalardb-server-sample
       # - title: "Microservice Transaction Sample"
@@ -293,10 +293,10 @@ versions:
   # Samples docs
   - title: "Samples" 
     children:
-      # - title: "ScalarDB Samples" 
-      #   url: /docs/3.7/scalardb-samples
-      - title: "ScalarDB Samples"
-        url: /docs/3.7/scalardb-samples/scalardb-sample
+      - title: "ScalarDB Samples" 
+        url: /docs/3.7/scalardb-samples
+      # - title: "ScalarDB Samples"
+      #   url: /docs/3.7/scalardb-samples/scalardb-sample
       # - title: "ScalarDB Server Sample"
       #   url: /docs/3.7/scalardb-samples/scalardb-server-sample
       # - title: "Microservice Transaction Sample"
@@ -397,10 +397,10 @@ versions:
   # Samples docs
   - title: "Samples" 
     children:
-      # - title: "ScalarDB Samples" 
-      #   url: /docs/3.6/scalardb-samples
-      - title: "ScalarDB Samples"
-        url: /docs/3.6/scalardb-samples/scalardb-sample
+      - title: "ScalarDB Samples" 
+        url: /docs/3.6/scalardb-samples
+      # - title: "ScalarDB Samples"
+      #   url: /docs/3.6/scalardb-samples/scalardb-sample
       # - title: "ScalarDB Server Sample"
       #   url: /docs/3.6/scalardb-samples/scalardb-server-sample
       # - title: "Microservice Transaction Sample"
@@ -500,10 +500,10 @@ versions:
   # Samples docs
   - title: "Samples" 
     children:
-      # - title: "ScalarDB Samples" 
-      #   url: /docs/3.5/scalardb-samples
-      - title: "ScalarDB Samples"
-        url: /docs/3.5/scalardb-samples/scalardb-sample
+      - title: "ScalarDB Samples" 
+        url: /docs/3.5/scalardb-samples
+      # - title: "ScalarDB Samples"
+      #   url: /docs/3.5/scalardb-samples/scalardb-sample
       # - title: "ScalarDB Server Sample"
       #   url: /docs/3.5/scalardb-samples/scalardb-server-sample
       # - title: "Microservice Transaction Sample"
@@ -597,10 +597,10 @@ versions:
   # Samples docs
   - title: "Samples" 
     children:
-      # - title: "ScalarDB Samples" 
-      #   url: /docs/3.4/scalardb-samples
-      - title: "ScalarDB Samples"
-        url: /docs/3.4/scalardb-samples/scalardb-sample
+      - title: "ScalarDB Samples" 
+        url: /docs/3.4/scalardb-samples
+      # - title: "ScalarDB Samples"
+      #   url: /docs/3.4/scalardb-samples/scalardb-sample
       # - title: "ScalarDB Server Sample"
       #   url: /docs/3.4/scalardb-samples/scalardb-server-sample
       # - title: "Microservice Transaction Sample"
