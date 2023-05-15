@@ -157,7 +157,7 @@ versions:
         url: /docs/3.9/scalardb-benchmarks
 
 "3.8":
-  - title: "⬅ ScalarDB home" 
+  - title: "⬅ ScalarDB Community docs home" 
     url: /docs # Don't change this URL. This links back to the parent product home page.
   - title: "ScalarDB 3.8 Community"
     children:
@@ -265,7 +265,7 @@ versions:
 # Need to add remaining version navigation here once we're happy with navigation titles. Will need to confirm docs exist across versions after.
 
 "3.7":
-  - title: "⬅ ScalarDB home" 
+  - title: "⬅ ScalarDB Community docs home" 
     url: /docs # Don't change this URL. This links back to the parent product home page.
   - title: "ScalarDB 3.7 Community"
     children:
@@ -369,7 +369,7 @@ versions:
         url: /docs/3.7/scalardb-benchmarks
 
 "3.6":
-  - title: "⬅ ScalarDB home" 
+  - title: "⬅ ScalarDB Community docs home" 
     url: /docs # Don't change this URL. This links back to the parent product home page.
   - title: "ScalarDB 3.6 Community"
     children:
@@ -472,7 +472,7 @@ versions:
         url: /docs/3.6/scalardb-benchmarks
 
 "3.5":
-  - title: "⬅ ScalarDB home" 
+  - title: "⬅ ScalarDB Community docs home" 
     url: /docs # Don't change this URL. This links back to the parent product home page.
   - title: "ScalarDB 3.5"
     children:
@@ -569,7 +569,7 @@ versions:
         url: /docs/3.5/scalardb-benchmarks
 
 "3.4":
-  - title: "⬅ ScalarDB home" 
+  - title: "⬅ ScalarDB Community docs home" 
     url: /docs # Don't change this URL. This links back to the parent product home page.
   - title: "ScalarDB 3.4 Community"
     children:
