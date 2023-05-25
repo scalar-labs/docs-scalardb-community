@@ -122,6 +122,10 @@ versions:
         url: /docs/3.9/helm-charts/configure-custom-values-envoy
       - title: "Configure a custom values file for ScalarDB GraphQL"
         url: /docs/3.9/helm-charts/configure-custom-values-scalardb-graphql
+      - title: "Configure a custom values file for ScalarDB Cluster"
+        url: /docs/3.9/helm-charts/configure-custom-values-scalardb-cluster
+      - title: "Mount any files or volumes on Scalar product pods"
+        url: /docs/3.9/helm-charts/mount-files-or-volumes-on-scalar-pods
       - title: "How to use Secret resources to pass the credentials as the environment variables into the properties file"
         url: /docs/3.9/helm-charts/use-secret-for-credentilas
       - title: "Deploy Scalar products using Scalar Helm Charts"
@@ -129,7 +133,9 @@ versions:
       - title: "How to deploy ScalarDB Server"
         url: /docs/3.9/helm-charts/how-to-deploy-scalardb
       - title: "How to deploy ScalarDB GraphQL"
-        url: /docs/3.9/helm-charts/how-to-deploy-scalardb-graphql      
+        url: /docs/3.9/helm-charts/how-to-deploy-scalardb-graphql
+      - title: "How to deploy ScalarDB Cluster"
+        url: /docs/3.9/helm-charts/how-to-deploy-scalardb-cluster
   # Manage docs
   - title: "Manage"
     children:
@@ -228,6 +234,10 @@ versions:
         url: /docs/3.8/helm-charts/configure-custom-values-envoy
       - title: "Configure a custom values file for ScalarDB GraphQL"
         url: /docs/3.8/helm-charts/configure-custom-values-scalardb-graphql
+      - title: "Configure a custom values file for ScalarDB Cluster"
+        url: /docs/3.8/helm-charts/configure-custom-values-scalardb-cluster
+      - title: "Mount any files or volumes on Scalar product pods"
+        url: /docs/3.8/helm-charts/mount-files-or-volumes-on-scalar-pods
       - title: "How to use Secret resources to pass the credentials as the environment variables into the properties file"
         url: /docs/3.8/helm-charts/use-secret-for-credentilas
       - title: "Deploy Scalar products using Scalar Helm Charts"
@@ -235,7 +245,9 @@ versions:
       - title: "How to deploy ScalarDB Server"
         url: /docs/3.8/helm-charts/how-to-deploy-scalardb
       - title: "How to deploy ScalarDB GraphQL"
-        url: /docs/3.8/helm-charts/how-to-deploy-scalardb-graphql      
+        url: /docs/3.8/helm-charts/how-to-deploy-scalardb-graphql
+      - title: "How to deploy ScalarDB Cluster"
+        url: /docs/3.8/helm-charts/how-to-deploy-scalardb-cluster
   # Manage docs
   - title: "Manage"
     children:
@@ -334,6 +346,10 @@ versions:
         url: /docs/3.7/helm-charts/configure-custom-values-envoy
       - title: "Configure a custom values file for ScalarDB GraphQL"
         url: /docs/3.7/helm-charts/configure-custom-values-scalardb-graphql
+      - title: "Configure a custom values file for ScalarDB Cluster"
+        url: /docs/3.7/helm-charts/configure-custom-values-scalardb-cluster
+      - title: "Mount any files or volumes on Scalar product pods"
+        url: /docs/3.7/helm-charts/mount-files-or-volumes-on-scalar-pods
       - title: "How to use Secret resources to pass the credentials as the environment variables into the properties file"
         url: /docs/3.7/helm-charts/use-secret-for-credentilas
       - title: "Deploy Scalar products using Scalar Helm Charts"
@@ -341,7 +357,9 @@ versions:
       - title: "How to deploy ScalarDB Server"
         url: /docs/3.7/helm-charts/how-to-deploy-scalardb
       - title: "How to deploy ScalarDB GraphQL"
-        url: /docs/3.7/helm-charts/how-to-deploy-scalardb-graphql      
+        url: /docs/3.7/helm-charts/how-to-deploy-scalardb-graphql
+      - title: "How to deploy ScalarDB Cluster"
+        url: /docs/3.7/helm-charts/how-to-deploy-scalardb-cluster
   # Manage docs
   - title: "Manage"
     children:
@@ -437,6 +455,10 @@ versions:
         url: /docs/3.6/helm-charts/configure-custom-values-envoy
       - title: "Configure a custom values file for ScalarDB GraphQL"
         url: /docs/3.6/helm-charts/configure-custom-values-scalardb-graphql
+      - title: "Configure a custom values file for ScalarDB Cluster"
+        url: /docs/3.6/helm-charts/configure-custom-values-scalardb-cluster
+      - title: "Mount any files or volumes on Scalar product pods"
+        url: /docs/3.6/helm-charts/mount-files-or-volumes-on-scalar-pods
       - title: "How to use Secret resources to pass the credentials as the environment variables into the properties file"
         url: /docs/3.6/helm-charts/use-secret-for-credentilas
       - title: "Deploy Scalar products using Scalar Helm Charts"
@@ -444,7 +466,9 @@ versions:
       - title: "How to deploy ScalarDB Server"
         url: /docs/3.6/helm-charts/how-to-deploy-scalardb
       - title: "How to deploy ScalarDB GraphQL"
-        url: /docs/3.6/helm-charts/how-to-deploy-scalardb-graphql      
+        url: /docs/3.6/helm-charts/how-to-deploy-scalardb-graphql
+      - title: "How to deploy ScalarDB Cluster"
+        url: /docs/3.6/helm-charts/how-to-deploy-scalardb-cluster
   # Manage docs
   - title: "Manage"
     children:
@@ -538,6 +562,10 @@ versions:
         url: /docs/3.5/helm-charts/configure-custom-values-envoy
       - title: "Configure a custom values file for ScalarDB GraphQL"
         url: /docs/3.5/helm-charts/configure-custom-values-scalardb-graphql
+      - title: "Configure a custom values file for ScalarDB Cluster"
+        url: /docs/3.5/helm-charts/configure-custom-values-scalardb-cluster
+      - title: "Mount any files or volumes on Scalar product pods"
+        url: /docs/3.5/helm-charts/mount-files-or-volumes-on-scalar-pods
       - title: "How to use Secret resources to pass the credentials as the environment variables into the properties file"
         url: /docs/3.5/helm-charts/use-secret-for-credentilas
       - title: "Deploy Scalar products using Scalar Helm Charts"
@@ -545,7 +573,9 @@ versions:
       - title: "How to deploy ScalarDB Server"
         url: /docs/3.5/helm-charts/how-to-deploy-scalardb
       - title: "How to deploy ScalarDB GraphQL"
-        url: /docs/3.5/helm-charts/how-to-deploy-scalardb-graphql      
+        url: /docs/3.5/helm-charts/how-to-deploy-scalardb-graphql
+      - title: "How to deploy ScalarDB Cluster"
+        url: /docs/3.5/helm-charts/how-to-deploy-scalardb-cluster
   # Manage docs
   - title: "Manage"
     children:
@@ -636,6 +666,10 @@ versions:
         url: /docs/3.4/helm-charts/configure-custom-values-envoy
       - title: "Configure a custom values file for ScalarDB GraphQL"
         url: /docs/3.4/helm-charts/configure-custom-values-scalardb-graphql
+      - title: "Configure a custom values file for ScalarDB Cluster"
+        url: /docs/3.4/helm-charts/configure-custom-values-scalardb-cluster
+      - title: "Mount any files or volumes on Scalar product pods"
+        url: /docs/3.4/helm-charts/mount-files-or-volumes-on-scalar-pods
       - title: "How to use Secret resources to pass the credentials as the environment variables into the properties file"
         url: /docs/3.4/helm-charts/use-secret-for-credentilas
       - title: "Deploy Scalar products using Scalar Helm Charts"
@@ -643,7 +677,9 @@ versions:
       - title: "How to deploy ScalarDB Server"
         url: /docs/3.4/helm-charts/how-to-deploy-scalardb
       - title: "How to deploy ScalarDB GraphQL"
-        url: /docs/3.4/helm-charts/how-to-deploy-scalardb-graphql      
+        url: /docs/3.4/helm-charts/how-to-deploy-scalardb-graphql
+      - title: "How to deploy ScalarDB Cluster"
+        url: /docs/3.4/helm-charts/how-to-deploy-scalardb-cluster
   # Manage docs
   - title: "Manage"
     children:
