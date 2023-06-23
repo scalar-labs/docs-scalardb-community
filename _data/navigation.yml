@@ -163,6 +163,8 @@ versions:
         url: /docs/latest/scalardb-supported-databases/
       - title: "Requirements in the Underlying Databases of ScalarDB"
         url: /docs/latest/requirements/
+      - title: "ScalarDB Configurations"
+        url: /docs/latest/configurations/
       - title: "Configurations for Consensus Commit"
         url: /docs/latest/configurations-for-consensus-commit/
       - title: "Storage Abstraction"
