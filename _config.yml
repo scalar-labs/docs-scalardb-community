@@ -279,17 +279,6 @@ defaults:
       toc_sticky: true
       search: false
 
-  # Hides ScalarDL-related pages (e.g., Helm Charts docs) from search results.
-  # NOTE: The following method causes a lengthy build time, which occasionally causes the build to remain "In progress" indefinitely. Because of that, it is currently commented out until we find an alternative way to hide specific pages from search results.
-  # - scope:
-  #     path: "docs/**/helm-charts/**/*scalardl*" # Specifies the folder where docs with `scalardl` in the file name live.
-  #     # type: "" # Since this scope uses `collection_dir`, we do not need to specify the type here.
-  #   values:
-  #     layout: page # Specifies the type of template used from the "_layouts" folder.
-  #     hidden: true 
-  #     search: false
-  #     sitemap: false
-
   # Remove irrelevant search results
   - scope:
       path: "assets"
