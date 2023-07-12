@@ -93,18 +93,12 @@ versions:
     children:
       - title: "Add ScalarDB to your build"
         url: /docs/latest/add-scalardb-to-your-build/
-      - title: "ScalarDB Configurations"
-        url: /docs/latest/configurations/
-      - title: "Configurations for Consensus Commit"
-        url: /docs/latest/configurations-for-consensus-commit/
       - title: "ScalarDB Java API Guide"
         url: /docs/latest/api-guide/
+      - title: "Configuration Guides for ScalarDB"
+        url: /docs/latest/development-configurations/
       - title: "ScalarDB Schema Loader"
         url: /docs/latest/schema-loader/
-      - title: "Multi-storage Transactions"
-        url: /docs/latest/multi-storage-transactions/
-      - title: "Two-Phase Commit Transactions"
-        url: /docs/latest/two-phase-commit-transactions/
   # Deploy docs
   - title: "Deploy"
     children:
@@ -172,16 +166,12 @@ versions:
     children:
       - title: "Add ScalarDB to your build"
         url: /docs/3.8/add-scalardb-to-your-build/
-      - title: "Configurations for Consensus Commit"
-        url: /docs/3.8/configurations-for-consensus-commit/
       - title: "ScalarDB Java API Guide"
         url: /docs/3.8/api-guide/
+      - title: "Configuration Guides for ScalarDB"
+        url: /docs/3.8/development-configurations/
       - title: "ScalarDB Schema Loader"
         url: /docs/3.8/schema-loader/
-      - title: "Multi-storage Transactions"
-        url: /docs/3.8/multi-storage-transactions/
-      - title: "Two-Phase Commit Transactions"
-        url: /docs/3.8/two-phase-commit-transactions/
   # Deploy docs
   - title: "Deploy"
     children:
@@ -249,14 +239,10 @@ versions:
     children:
       - title: "Add ScalarDB to your build"
         url: /docs/3.7/add-scalardb-to-your-build/
-      - title: "Configurations for Consensus Commit"
-        url: /docs/3.7/configurations-for-consensus-commit/
       - title: "ScalarDB Java API Guide"
         url: /docs/3.7/api-guide/
-      - title: "Multi-storage Transactions"
-        url: /docs/3.7/multi-storage-transactions/
-      - title: "Two-Phase Commit Transactions"
-        url: /docs/3.7/two-phase-commit-transactions/
+      - title: "Configuration Guides for ScalarDB"
+        url: /docs/3.7/development-configurations/
   # Deploy docs
   - title: "Deploy"
     children:
@@ -324,14 +310,10 @@ versions:
     children:
       - title: "Add ScalarDB to your build"
         url: /docs/3.6/add-scalardb-to-your-build/
-      - title: "Configurations for Consensus Commit"
-        url: /docs/3.6/configurations-for-consensus-commit/
       - title: "ScalarDB Java API Guide"
         url: /docs/3.6/api-guide/
-      - title: "Multi-storage Transactions"
-        url: /docs/3.6/multi-storage-transactions/
-      - title: "Two-Phase Commit Transactions"
-        url: /docs/3.6/two-phase-commit-transactions/
+      - title: "Configuration Guides for ScalarDB"
+        url: /docs/3.6/development-configurations/
   # Deploy docs
   - title: "Deploy"
     children:
@@ -399,10 +381,8 @@ versions:
     children:
       - title: "Add ScalarDB to your build"
         url: /docs/3.5/add-scalardb-to-your-build/
-      - title: "Multi-storage Transactions"
-        url: /docs/3.5/multi-storage-transactions/
-      - title: "Two-Phase Commit Transactions"
-        url: /docs/3.5/two-phase-commit-transactions/
+      - title: "Configuration Guides for ScalarDB"
+        url: /docs/3.5/development-configurations/
   # Deploy docs
   - title: "Deploy"
     children:
@@ -468,10 +448,8 @@ versions:
     children:
       - title: "Add ScalarDB to your build"
         url: /docs/3.4/add-scalardb-to-your-build/
-      - title: "Multi-storage Transactions"
-        url: /docs/3.4/multi-storage-transactions/
-      - title: "Two-Phase Commit Transactions"
-        url: /docs/3.4/two-phase-commit-transactions/
+      - title: "Configuration Guides for ScalarDB"
+        url: /docs/3.4/development-configurations/
   # Deploy docs
   - title: "Deploy"
     children:
