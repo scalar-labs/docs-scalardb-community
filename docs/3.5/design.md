@@ -27,7 +27,6 @@ The data model of Scalar DB is a multi-dimensional map based on the key-value da
 
 (partition-key, clustering-key, value-name) -> value-content
 
-
 ![](images/data_model.png)
 
 ### Physical Data Model
