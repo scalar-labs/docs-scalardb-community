@@ -36,10 +36,8 @@ versions:
     version-children:
     - version-title: "Licensed version"
       version-url: "https://scalardb.scalar-labs.com/docs"
-    - version-title: "3.10 Community (latest)"
+    - version-title: "3.9 Community (latest)"
       version-url: /docs/latest
-    - version-title: "3.9 Community"
-      version-url: /docs/3.9
     - version-title: "3.8 Community"
       version-url: /docs/3.8
     - version-title: "3.7 Community"
@@ -62,7 +60,7 @@ versions:
 "latest":
   - title: "⬅ ScalarDB Community docs home" 
     url: /docs # Don't change this URL. This links back to the parent product home page.
-  - title: "ScalarDB 3.10 Community"
+  - title: "ScalarDB 3.9 Community"
     children:
   # Get Started docs
   - title: "Get Started"
@@ -129,77 +127,6 @@ versions:
         url: /docs/latest/storage-abstraction/
       - title: "ScalarDB Benchmarks"
         url: /docs/latest/scalardb-benchmarks/README/
-
-"3.9":
-  - title: "⬅ ScalarDB Community docs home" 
-    url: /docs # Don't change this URL. This links back to the parent product home page.
-  - title: "ScalarDB 3.9 Community"
-    children:
-  # Get Started docs
-  - title: "Get Started"
-    children:
-      - title: "Setting Up Your Database Environment"
-        url: /docs/3.9/getting-started/
-      # - title: "Getting Started with ScalarDB on Cassandra"
-      #   url: /docs/3.9/getting-started-with-scalardb-on-cassandra/
-      # - title: "Getting Started with ScalarDB on Cosmos DB"
-      #   url: /docs/3.9/getting-started-with-scalardb-on-cosmosdb/
-      # - title: "Getting Started with ScalarDB on DynamoDB"
-      #   url: /docs/3.9/getting-started-with-scalardb-on-dynamodb/
-      # - title: "Getting Started with ScalarDB on JDBC databases"
-      #   url: /docs/3.9/getting-started-with-scalardb-on-jdbc/
-      - title: "Getting Started with ScalarDB"
-        url: /docs/3.9/getting-started-with-scalardb/
-  # Samples docs
-  - title: "Samples" 
-    children:
-      - title: "ScalarDB Samples" 
-        url: /docs/3.9/scalardb-samples/README/
-      # - title: "ScalarDB Samples"
-      #   url: /docs/3.9/scalardb-samples/scalardb-sample/README/
-      # - title: "Microservice Transaction Sample"
-      #   url: /docs/3.9/scalardb-samples/microservice-transaction-sample/README/
-      # - title: "Multi-Storage Transaction Sample"
-      #   url: /docs/3.9/scalardb-samples/multi-storage-transaction-sample/README/
-  # Develop docs
-  - title: "Develop"
-    children:
-      - title: "Add ScalarDB to your build"
-        url: /docs/3.9/add-scalardb-to-your-build/
-      - title: "ScalarDB Java API Guide"
-        url: /docs/3.9/api-guide/
-      - title: "Configuration Guides for ScalarDB"
-        url: /docs/3.9/development-configurations/
-      - title: "ScalarDB Schema Loader"
-        url: /docs/3.9/schema-loader/
-  # Deploy docs
-  - title: "Deploy"
-    children:
-      - title: "ScalarDB Server"
-        url: /docs/3.9/scalardb-server/
-  # Manage docs
-  - title: "Manage"
-    children:
-      - title: "How to Backup and Restore Databases Used Through ScalarDB"
-        url: /docs/3.9/backup-restore/
-  # Migrate docs
-  # - title: "Migrate"
-  #   children:
-  #     - title: ""
-  #       url: 
-  # Reference docs
-  - title: "Reference"
-    children:      
-      - title: "ScalarDB Design Document"
-        url: /docs/3.9/design/
-      - title: "ScalarDB Supported Databases"
-        url: /docs/3.9/scalardb-supported-databases/
-      - title: "Requirements in the Underlying Databases of ScalarDB"
-        url: /docs/3.9/requirements/
-      - title: "Storage Abstraction"
-        url: /docs/3.9/storage-abstraction/
-      - title: "ScalarDB Benchmarks"
-        url: /docs/3.9/scalardb-benchmarks/README/
 
 "3.8":
   - title: "⬅ ScalarDB Community docs home" 
