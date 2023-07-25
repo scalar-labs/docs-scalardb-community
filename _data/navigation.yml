@@ -419,7 +419,7 @@ versions:
 "3.5":
   - title: "⬅ ScalarDB Community docs home" 
     url: /docs # Don't change this URL. This links back to the parent product home page.
-  - title: "ScalarDB 3.5"
+  - title: "ScalarDB 3.5 Community"
     children:
   # Get Started docs
   - title: "Get Started"
