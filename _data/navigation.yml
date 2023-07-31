@@ -129,6 +129,27 @@ versions:
         url: /docs/latest/storage-abstraction/
       - title: "ScalarDB Benchmarks"
         url: /docs/latest/scalardb-benchmarks/README/
+  # Release docs and notes
+  - title: "Releases"
+    children:
+      - title: "Release Notes"
+        url: /docs/releases/
+      # - title: "v3.10"
+      #   url: /docs/releases/release-3.10/
+      # - title: "v3.9"
+      #   url: /docs/releases/release-3.9/
+      # - title: "v3.8"
+      #   url: /docs/releases/release-3.8/
+      # - title: "v3.7"
+      #   url: /docs/releases/release-3.7/
+      # - title: "v3.6"
+      #   url: /docs/releases/release-3.6/
+      # - title: "v3.5"
+      #   url: /docs/releases/release-3.5/
+      # - title: "v3.4"
+      #   url: /docs/releases/release-3.4/
+      # - title: "Release Support Policy"
+      #   url: /docs/releases/release-support-policy
 
 "3.9":
   - title: "⬅ ScalarDB Community docs home" 
@@ -200,6 +221,27 @@ versions:
         url: /docs/3.9/storage-abstraction/
       - title: "ScalarDB Benchmarks"
         url: /docs/3.9/scalardb-benchmarks/README/
+  # Release docs and notes
+  - title: "Releases"
+    children:
+      - title: "Release Notes"
+        url: /docs/releases/
+      # - title: "v3.10"
+      #   url: /docs/releases/release-3.10/
+      # - title: "v3.9"
+      #   url: /docs/releases/release-3.9/
+      # - title: "v3.8"
+      #   url: /docs/releases/release-3.8/
+      # - title: "v3.7"
+      #   url: /docs/releases/release-3.7/
+      # - title: "v3.6"
+      #   url: /docs/releases/release-3.6/
+      # - title: "v3.5"
+      #   url: /docs/releases/release-3.5/
+      # - title: "v3.4"
+      #   url: /docs/releases/release-3.4/
+      # - title: "Release Support Policy"
+      #   url: /docs/releases/release-support-policy
 
 "3.8":
   - title: "⬅ ScalarDB Community docs home" 
@@ -273,6 +315,27 @@ versions:
         url: /docs/3.8/storage-abstraction/
       - title: "ScalarDB Benchmarks"
         url: /docs/3.8/scalardb-benchmarks/README/
+  # Release docs and notes
+  - title: "Releases"
+    children:
+      - title: "Release Notes"
+        url: /docs/releases/
+      # - title: "v3.10"
+      #   url: /docs/releases/release-3.10/
+      # - title: "v3.9"
+      #   url: /docs/releases/release-3.9/
+      # - title: "v3.8"
+      #   url: /docs/releases/release-3.8/
+      # - title: "v3.7"
+      #   url: /docs/releases/release-3.7/
+      # - title: "v3.6"
+      #   url: /docs/releases/release-3.6/
+      # - title: "v3.5"
+      #   url: /docs/releases/release-3.5/
+      # - title: "v3.4"
+      #   url: /docs/releases/release-3.4/
+      # - title: "Release Support Policy"
+      #   url: /docs/releases/release-support-policy
 
 "3.7":
   - title: "⬅ ScalarDB Community docs home" 
@@ -344,6 +407,27 @@ versions:
         url: /docs/3.7/storage-abstraction/
       - title: "ScalarDB Benchmarks"
         url: /docs/3.7/scalardb-benchmarks/README/
+  # Release docs and notes
+  - title: "Releases"
+    children:
+      - title: "Release Notes"
+        url: /docs/releases/
+      # - title: "v3.10"
+      #   url: /docs/releases/release-3.10/
+      # - title: "v3.9"
+      #   url: /docs/releases/release-3.9/
+      # - title: "v3.8"
+      #   url: /docs/releases/release-3.8/
+      # - title: "v3.7"
+      #   url: /docs/releases/release-3.7/
+      # - title: "v3.6"
+      #   url: /docs/releases/release-3.6/
+      # - title: "v3.5"
+      #   url: /docs/releases/release-3.5/
+      # - title: "v3.4"
+      #   url: /docs/releases/release-3.4/
+      # - title: "Release Support Policy"
+      #   url: /docs/releases/release-support-policy
 
 "3.6":
   - title: "⬅ ScalarDB Community docs home" 
@@ -415,6 +499,27 @@ versions:
         url: /docs/3.6/storage-abstraction/
       - title: "ScalarDB Benchmarks"
         url: /docs/3.6/scalardb-benchmarks/README/
+  # Release docs and notes
+  - title: "Releases"
+    children:
+      - title: "Release Notes"
+        url: /docs/releases/
+      # - title: "v3.10"
+      #   url: /docs/releases/release-3.10/
+      # - title: "v3.9"
+      #   url: /docs/releases/release-3.9/
+      # - title: "v3.8"
+      #   url: /docs/releases/release-3.8/
+      # - title: "v3.7"
+      #   url: /docs/releases/release-3.7/
+      # - title: "v3.6"
+      #   url: /docs/releases/release-3.6/
+      # - title: "v3.5"
+      #   url: /docs/releases/release-3.5/
+      # - title: "v3.4"
+      #   url: /docs/releases/release-3.4/
+      # - title: "Release Support Policy"
+      #   url: /docs/releases/release-support-policy
 
 "3.5":
   - title: "⬅ ScalarDB Community docs home" 
@@ -482,6 +587,27 @@ versions:
         url: /docs/3.5/requirements/
       - title: "ScalarDB Benchmarks"
         url: /docs/3.5/scalardb-benchmarks/README/
+  # Release docs and notes
+  - title: "Releases"
+    children:
+      - title: "Release Notes"
+        url: /docs/releases/
+      # - title: "v3.10"
+      #   url: /docs/releases/release-3.10/
+      # - title: "v3.9"
+      #   url: /docs/releases/release-3.9/
+      # - title: "v3.8"
+      #   url: /docs/releases/release-3.8/
+      # - title: "v3.7"
+      #   url: /docs/releases/release-3.7/
+      # - title: "v3.6"
+      #   url: /docs/releases/release-3.6/
+      # - title: "v3.5"
+      #   url: /docs/releases/release-3.5/
+      # - title: "v3.4"
+      #   url: /docs/releases/release-3.4/
+      # - title: "Release Support Policy"
+      #   url: /docs/releases/release-support-policy
 
 "3.4":
   - title: "⬅ ScalarDB Community docs home" 
@@ -549,3 +675,24 @@ versions:
         url: /docs/3.4/requirements/
       - title: "ScalarDB Benchmarks"
         url: /docs/3.4/scalardb-benchmarks/README/
+  # Release docs and notes
+  - title: "Releases"
+    children:
+      - title: "Release Notes"
+        url: /docs/releases/
+      # - title: "v3.10"
+      #   url: /docs/releases/release-3.10/
+      # - title: "v3.9"
+      #   url: /docs/releases/release-3.9/
+      # - title: "v3.8"
+      #   url: /docs/releases/release-3.8/
+      # - title: "v3.7"
+      #   url: /docs/releases/release-3.7/
+      # - title: "v3.6"
+      #   url: /docs/releases/release-3.6/
+      # - title: "v3.5"
+      #   url: /docs/releases/release-3.5/
+      # - title: "v3.4"
+      #   url: /docs/releases/release-3.4/
+      # - title: "Release Support Policy"
+      #   url: /docs/releases/release-support-policy
