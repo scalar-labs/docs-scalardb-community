@@ -1,5 +1,4 @@
 // This JavaScript file allows users to press a button to copy content in a code block to a clipboard. (added by josh-wong)
-// assets/js/post.js
 var codeBlocks = document.querySelectorAll('pre.highlight');
 
 codeBlocks.forEach(function (codeBlock) {
