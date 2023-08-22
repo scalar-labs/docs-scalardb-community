@@ -17,7 +17,7 @@ figure.highlight {
   pre.highlight {
     margin: 0;
     padding: 1em 6.5em 1em 1em;
-    white-space: pre-wrap;
+    /* white-space: pre-wrap; /* Added this initially to make commands in a code block wrap, but that looks a little confusing. Keeping this line but commenting it out for historical sake. (added by josh-wong) */
   }
 
   /* The following button style is for the copy button that allows users to copy content in a code block to a clipboard. (added by josh-wong) */
