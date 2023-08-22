@@ -12,7 +12,7 @@ codeBlocks.forEach(function (codeBlock) {
   codeBlock.append(copyButton);
 
   copyButton.addEventListener('click', function () {
-    var code = codeBlock.querySelector('code').innerText.trim();
+    var code = codeBlock.querySelector('code').innerText.replace("$ ", "").trim();
     window.navigator.clipboard.writeText(code);
 
     copyButton.innerText = 'Copied!';
