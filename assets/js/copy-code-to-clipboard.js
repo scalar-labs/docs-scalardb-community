@@ -1,5 +1,4 @@
-// This JavaScript file allows users to press a button to copy content in a code block to a clipboard. (added by josh-wong)
-// HELP WANTED: Need to be able to copy code blocks without the `$` also being copied. I think we can add a regex for this somehow but I don't know how.
+// This JavaScript file allows users to press a button to copy content in a code block to a clipboard (added by josh-wong)
 var codeBlocks = document.querySelectorAll('pre.highlight');
 
 codeBlocks.forEach(function (codeBlock) {
@@ -12,7 +11,7 @@ codeBlocks.forEach(function (codeBlock) {
   codeBlock.append(copyButton);
 
   copyButton.addEventListener('click', function () {
-    var code = codeBlock.querySelector('code').innerText.replace("$ ", "").trim();
+    var code = codeBlock.querySelector('code').innerText.replace("$ ", "").trim(); // Copy the code block, removing any leading `$ `
     window.navigator.clipboard.writeText(code);
 
     copyButton.innerText = 'Copied!';
