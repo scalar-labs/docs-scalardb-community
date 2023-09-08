@@ -71,6 +71,8 @@ versions:
       #   url: /docs/latest/getting-started-with-scalardb-on-jdbc/
       - title: "Getting Started with ScalarDB"
         url: /docs/latest/getting-started-with-scalardb/
+      - title: "Getting Started with ScalarDB by Using Kotlin"
+        url: /docs/latest/getting-started-with-scalardb-by-using-kotlin/
   # Samples docs
   - title: "Samples" 
     children:
@@ -161,6 +163,8 @@ versions:
       #   url: /docs/3.9/getting-started-with-scalardb-on-jdbc/
       - title: "Getting Started with ScalarDB"
         url: /docs/3.9/getting-started-with-scalardb/
+      - title: "Getting Started with ScalarDB by Using Kotlin"
+        url: /docs/3.9/getting-started-with-scalardb-by-using-kotlin/
   # Samples docs
   - title: "Samples" 
     children:
@@ -251,6 +255,8 @@ versions:
       #   url: /docs/3.8/getting-started-with-scalardb-on-jdbc/
       - title: "Getting Started with ScalarDB"
         url: /docs/3.8/getting-started-with-scalardb/
+      - title: "Getting Started with ScalarDB by Using Kotlin"
+        url: /docs/3.8/getting-started-with-scalardb-by-using-kotlin/
   # Samples docs
   - title: "Samples" 
     children:
@@ -343,6 +349,8 @@ versions:
       #   url: /docs/3.7/getting-started-with-scalardb-on-jdbc/
       - title: "Getting Started with ScalarDB"
         url: /docs/3.7/getting-started-with-scalardb/
+      - title: "Getting Started with ScalarDB by Using Kotlin"
+        url: /docs/3.7/getting-started-with-scalardb-by-using-kotlin/
   # Samples docs
   - title: "Samples" 
     children:
@@ -433,6 +441,8 @@ versions:
       #   url: /docs/3.6/getting-started-with-scalardb-on-jdbc/
       - title: "Getting Started with ScalarDB"
         url: /docs/3.6/getting-started-with-scalardb/
+      - title: "Getting Started with ScalarDB by Using Kotlin"
+        url: /docs/3.6/getting-started-with-scalardb-by-using-kotlin/
   # Samples docs
   - title: "Samples" 
     children:
@@ -523,6 +533,8 @@ versions:
       #   url: /docs/3.5/getting-started-with-scalardb-on-jdbc/
       - title: "Getting Started with ScalarDB"
         url: /docs/3.5/getting-started-with-scalardb/
+      - title: "Getting Started with ScalarDB by Using Kotlin"
+        url: /docs/3.5/getting-started-with-scalardb-by-using-kotlin/
   # Samples docs
   - title: "Samples" 
     children:
