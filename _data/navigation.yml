@@ -87,7 +87,7 @@ versions:
   # Develop docs
   - title: "Develop"
     children:
-      - title: "Add ScalarDB to your build"
+      - title: "Add ScalarDB to Your Build"
         url: /docs/latest/add-scalardb-to-your-build/
       - title: "ScalarDB Java API Guide"
         url: /docs/latest/api-guide/
@@ -103,7 +103,7 @@ versions:
   # Manage docs
   - title: "Manage"
     children:
-      - title: "How to Backup and Restore Databases Used Through ScalarDB"
+      - title: "How to Back Up and Restore Databases Used Through ScalarDB"
         url: /docs/latest/backup-restore/
   # Migrate docs
   # - title: "Migrate"
@@ -117,9 +117,9 @@ versions:
         url: /docs/latest/design/
       - title: "ScalarDB Supported Databases"
         url: /docs/latest/scalardb-supported-databases/
-      - title: "Requirements in the Underlying Databases of ScalarDB"
+      - title: "Requirements and Recommendations for the Underlying Databases of ScalarDB"
         url: /docs/latest/requirements/
-      - title: "Storage Abstraction"
+      - title: "Storage Abstraction and API Guide"
         url: /docs/latest/storage-abstraction/
       - title: "ScalarDB Benchmarks"
         url: /docs/latest/scalardb-benchmarks/README/
@@ -179,7 +179,7 @@ versions:
   # Develop docs
   - title: "Develop"
     children:
-      - title: "Add ScalarDB to your build"
+      - title: "Add ScalarDB to Your Build"
         url: /docs/3.9/add-scalardb-to-your-build/
       - title: "ScalarDB Java API Guide"
         url: /docs/3.9/api-guide/
@@ -195,7 +195,7 @@ versions:
   # Manage docs
   - title: "Manage"
     children:
-      - title: "How to Backup and Restore Databases Used Through ScalarDB"
+      - title: "How to Back Up and Restore Databases Used Through ScalarDB"
         url: /docs/3.9/backup-restore/
   # Migrate docs
   # - title: "Migrate"
@@ -209,9 +209,9 @@ versions:
         url: /docs/3.9/design/
       - title: "ScalarDB Supported Databases"
         url: /docs/3.9/scalardb-supported-databases/
-      - title: "Requirements in the Underlying Databases of ScalarDB"
+      - title: "Requirements and Recommendations for the Underlying Databases of ScalarDB"
         url: /docs/3.9/requirements/
-      - title: "Storage Abstraction"
+      - title: "Storage Abstraction and API Guide"
         url: /docs/3.9/storage-abstraction/
       - title: "ScalarDB Benchmarks"
         url: /docs/3.9/scalardb-benchmarks/README/
@@ -273,7 +273,7 @@ versions:
   # Develop docs
   - title: "Develop"
     children:
-      - title: "Add ScalarDB to your build"
+      - title: "Add ScalarDB to Your Build"
         url: /docs/3.8/add-scalardb-to-your-build/
       - title: "ScalarDB Java API Guide"
         url: /docs/3.8/api-guide/
@@ -289,7 +289,7 @@ versions:
   # Manage docs
   - title: "Manage"
     children:
-      - title: "How to Backup and Restore Databases Used Through ScalarDB"
+      - title: "How to Back Up and Restore Databases Used Through ScalarDB"
         url: /docs/3.8/backup-restore/
   # Migrate docs
   # - title: "Migrate"
@@ -303,9 +303,9 @@ versions:
         url: /docs/3.8/design/
       - title: "ScalarDB Supported Databases"
         url: /docs/3.8/scalardb-supported-databases/
-      - title: "Requirements in the Underlying Databases of ScalarDB"
+      - title: "Requirements and Recommendations for the Underlying Databases of ScalarDB"
         url: /docs/3.8/requirements/
-      - title: "Storage Abstraction"
+      - title: "Storage Abstraction and API Guide"
         url: /docs/3.8/storage-abstraction/
       - title: "ScalarDB Benchmarks"
         url: /docs/3.8/scalardb-benchmarks/README/
@@ -367,12 +367,14 @@ versions:
   # Develop docs
   - title: "Develop"
     children:
-      - title: "Add ScalarDB to your build"
+      - title: "Add ScalarDB to Your Build"
         url: /docs/3.7/add-scalardb-to-your-build/
       - title: "ScalarDB Java API Guide"
         url: /docs/3.7/api-guide/
       - title: "Configuration Guides for ScalarDB"
         url: /docs/3.7/development-configurations/
+      - title: "ScalarDB Schema Loader"
+        url: /docs/3.7/schema-loader/
   # Deploy docs
   - title: "Deploy"
     children:
@@ -381,7 +383,7 @@ versions:
   # Manage docs
   - title: "Manage"
     children:
-      - title: "How to Backup and Restore Databases Used Through ScalarDB"
+      - title: "How to Back Up and Restore Databases Used Through ScalarDB"
         url: /docs/3.7/backup-restore/
   # Migrate docs
   # - title: "Migrate"
@@ -395,9 +397,9 @@ versions:
         url: /docs/3.7/design/
       - title: "ScalarDB Supported Databases"
         url: /docs/3.7/scalardb-supported-databases/
-      - title: "Requirements in the Underlying Databases of ScalarDB"
+      - title: "Requirements and Recommendations for the Underlying Databases of ScalarDB"
         url: /docs/3.7/requirements/
-      - title: "Storage Abstraction"
+      - title: "Storage Abstraction and API Guide"
         url: /docs/3.7/storage-abstraction/
       - title: "ScalarDB Benchmarks"
         url: /docs/3.7/scalardb-benchmarks/README/
@@ -459,12 +461,14 @@ versions:
   # Develop docs
   - title: "Develop"
     children:
-      - title: "Add ScalarDB to your build"
+      - title: "Add ScalarDB to Your Build"
         url: /docs/3.6/add-scalardb-to-your-build/
       - title: "ScalarDB Java API Guide"
         url: /docs/3.6/api-guide/
       - title: "Configuration Guides for ScalarDB"
         url: /docs/3.6/development-configurations/
+      - title: "ScalarDB Schema Loader"
+        url: /docs/3.6/schema-loader/
   # Deploy docs
   - title: "Deploy"
     children:
@@ -473,7 +477,7 @@ versions:
   # Manage docs
   - title: "Manage"
     children:
-      - title: "How to Backup and Restore Databases Used Through ScalarDB"
+      - title: "How to Back Up and Restore Databases Used Through ScalarDB"
         url: /docs/3.6/backup-restore/
   # Migrate docs
   # - title: "Migrate"
@@ -487,9 +491,9 @@ versions:
         url: /docs/3.6/design/
       - title: "ScalarDB Supported Databases"
         url: /docs/3.6/scalardb-supported-databases/
-      - title: "Requirements in the Underlying Databases of ScalarDB"
+      - title: "Requirements and Recommendations for the Underlying Databases of ScalarDB"
         url: /docs/3.6/requirements/
-      - title: "Storage Abstraction"
+      - title: "Storage Abstraction and API Guide"
         url: /docs/3.6/storage-abstraction/
       - title: "ScalarDB Benchmarks"
         url: /docs/3.6/scalardb-benchmarks/README/
@@ -551,10 +555,12 @@ versions:
   # Develop docs
   - title: "Develop"
     children:
-      - title: "Add ScalarDB to your build"
+      - title: "Add ScalarDB to Your Build"
         url: /docs/3.5/add-scalardb-to-your-build/
       - title: "Configuration Guides for ScalarDB"
         url: /docs/3.5/development-configurations/
+      - title: "ScalarDB Schema Loader"
+        url: /docs/3.5/schema-loader/
   # Deploy docs
   - title: "Deploy"
     children:
@@ -563,7 +569,7 @@ versions:
   # Manage docs
   - title: "Manage"
     children:
-      - title: "How to Backup and Restore Databases Used Through ScalarDB"
+      - title: "How to Back Up and Restore Databases Used Through ScalarDB"
         url: /docs/3.5/backup-restore/
   # Migrate docs
   # - title: "Migrate"
@@ -577,7 +583,7 @@ versions:
         url: /docs/3.5/design/
       - title: "ScalarDB Supported Databases"
         url: /docs/3.5/scalardb-supported-databases/
-      - title: "Requirements in the Underlying Databases of ScalarDB"
+      - title: "Requirements and Recommendations for the Underlying Databases of ScalarDB"
         url: /docs/3.5/requirements/
       - title: "ScalarDB Benchmarks"
         url: /docs/3.5/scalardb-benchmarks/README/
@@ -639,7 +645,7 @@ versions:
   # Develop docs
   - title: "Develop"
     children:
-      - title: "Add ScalarDB to your build"
+      - title: "Add ScalarDB to Your Build"
         url: /docs/3.4/add-scalardb-to-your-build/
       - title: "Configuration Guides for ScalarDB"
         url: /docs/3.4/development-configurations/
@@ -651,7 +657,7 @@ versions:
   # Manage docs
   - title: "Manage"
     children:
-      - title: "How to Backup and Restore Databases Used Through ScalarDB"
+      - title: "How to Back Up and Restore Databases Used Through ScalarDB"
         url: /docs/3.4/backup-restore/
   # Migrate docs
   # - title: "Migrate"
@@ -665,7 +671,7 @@ versions:
         url: /docs/3.4/design/
       - title: "ScalarDB Supported Databases"
         url: /docs/3.4/scalardb-supported-databases/
-      - title: "Requirements in the Underlying Databases of ScalarDB"
+      - title: "Requirements and Recommendations for the Underlying Databases of ScalarDB"
         url: /docs/3.4/requirements/
       - title: "ScalarDB Benchmarks"
         url: /docs/3.4/scalardb-benchmarks/README/
