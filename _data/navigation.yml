@@ -37,8 +37,6 @@ editions:
 versions:
   - version-top-title: "" # This title is taken from the `version_label` in `_data/ui-text.yml`.
     version-children:
-    - version-title: "Enterprise edition"
-      version-url: "https://scalardb.scalar-labs.com/docs"
     - version-title: "3.11 Community (latest)"
       version-url: /docs/latest/getting-started-with-scalardb/
     - version-title: "3.10 Community"
