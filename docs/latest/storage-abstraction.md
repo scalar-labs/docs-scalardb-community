@@ -388,6 +388,20 @@ You can get table metadata as follows:
 TableMetadata tableMetadata = admin.getTableMetadata("ns", "tbl");
 ```
 
+### Repair a table
+
+You can repair the table metadata of an existing table as follows:
+
+```java
+// Repair the table "ns.tbl" with options.
+TableMetadata tableMetadata =
+    TableMetadata.newBuilder()
+        ...
+        .build();
+Map<String, String> options = ...;
+admin.repairTable("ns", "tbl", tableMetadata, options);
+```
+
 ### Implement CRUD operations
 
 The following sections describe CRUD operations.
@@ -662,6 +676,15 @@ Put put =
         .doubleValue("c5", null)
         .build();
 ```
+
+{% capture notice--info %}
+**Note**
+
+If you specify `enableImplicitPreRead()`, `disableImplicitPreRead()`, or `implicitPreReadEnabled()` in the `Put` operation builder, they will be ignored.
+
+{% endcapture %}
+
+<div class="notice--info">{{ notice--info | markdownify }}</div>
 
 #### `Delete` operation
 
