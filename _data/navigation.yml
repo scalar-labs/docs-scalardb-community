@@ -99,6 +99,8 @@ versions:
         url: /docs/latest/schema-loader/
       - title: "Importing Existing Tables to ScalarDB by Using ScalarDB Schema Loader"
         url: /docs/latest/schema-loader-import/
+      - title: "Importing Existing Tables to ScalarDB by Using ScalarDB Schema Loader"
+        url: /docs/latest/schema-loader-import/
   # Deploy docs
   - title: "Deploy"
     children:
@@ -193,6 +195,8 @@ versions:
         url: /docs/3.10/development-configurations/
       - title: "ScalarDB Schema Loader"
         url: /docs/3.10/schema-loader/
+      - title: "Importing Existing Tables to ScalarDB by Using ScalarDB Schema Loader"
+        url: /docs/3.10/schema-loader-import/
   # Deploy docs
   - title: "Deploy"
     children:
