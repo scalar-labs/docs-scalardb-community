@@ -6,5 +6,5 @@ toc: false
 
 The following versions of ScalarDB are no longer supported:
 
-- [ScalarDB 3.5](/docs/3.5/getting-started-with-scalardb/)
-- [ScalarDB 3.4](/docs/3.4/getting-started-with-scalardb/)
+- [ScalarDB 3.5](3.5/getting-started-with-scalardb.md)
+- [ScalarDB 3.4](3.4/getting-started-with-scalardb.md)
