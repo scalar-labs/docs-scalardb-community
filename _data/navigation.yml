@@ -105,6 +105,10 @@ versions:
         url: /docs/latest/schema-loader/
       - title: "Importing Existing Tables to ScalarDB by Using ScalarDB Schema Loader"
         url: /docs/latest/schema-loader-import/
+      - title: "ScalarDB FDW for ScalarDB Analytics with PostgreSQL"
+        url: /docs/latest/scalardb-analytics-postgresql/scalardb-fdw/
+      - title: "Schema Importer for ScalarDB Analytics with PostgreSQL"
+        url: /docs/latest/scalardb-analytics-postgresql/schema-importer/
   # Deploy docs
   - title: "Deploy"
     children:
@@ -199,8 +203,10 @@ versions:
         url: /docs/3.10/development-configurations/
       - title: "ScalarDB Schema Loader"
         url: /docs/3.10/schema-loader/
-      - title: "Importing Existing Tables to ScalarDB by Using ScalarDB Schema Loader"
-        url: /docs/3.10/schema-loader-import/
+      - title: "ScalarDB FDW for ScalarDB Analytics with PostgreSQL"
+        url: /docs/3.10/scalardb-analytics-postgresql/scalardb-fdw/
+      - title: "Schema Importer for ScalarDB Analytics with PostgreSQL"
+        url: /docs/3.10/scalardb-analytics-postgresql/schema-importer/
   # Deploy docs
   - title: "Deploy"
     children:
@@ -295,6 +301,10 @@ versions:
         url: /docs/3.9/development-configurations/
       - title: "ScalarDB Schema Loader"
         url: /docs/3.9/schema-loader/
+      - title: "ScalarDB FDW for ScalarDB Analytics with PostgreSQL"
+        url: /docs/3.9/scalardb-analytics-postgresql/scalardb-fdw/
+      - title: "Schema Importer for ScalarDB Analytics with PostgreSQL"
+        url: /docs/3.9/scalardb-analytics-postgresql/schema-importer/
   # Deploy docs
   - title: "Deploy"
     children:
