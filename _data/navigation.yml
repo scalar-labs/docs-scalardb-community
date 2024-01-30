@@ -81,6 +81,8 @@ versions:
         url: /docs/latest/getting-started-with-scalardb/
       - title: "Getting Started with ScalarDB by Using Kotlin"
         url: /docs/latest/getting-started-with-scalardb-by-using-kotlin/
+      - title: "Getting Started with ScalarDB Analytics with PostgreSQL"
+        url: /docs/latest/scalardb-analytics-postgresql/getting-started/
   # Samples docs
   - title: "Samples" 
     children:
@@ -181,6 +183,8 @@ versions:
         url: /docs/3.10/getting-started-with-scalardb/
       - title: "Getting Started with ScalarDB by Using Kotlin"
         url: /docs/3.10/getting-started-with-scalardb-by-using-kotlin/
+      - title: "Getting Started with ScalarDB Analytics with PostgreSQL"
+        url: /docs/3.10/scalardb-analytics-postgresql/getting-started/
   # Samples docs
   - title: "Samples" 
     children:
@@ -279,6 +283,8 @@ versions:
         url: /docs/3.9/getting-started-with-scalardb/
       - title: "Getting Started with ScalarDB by Using Kotlin"
         url: /docs/3.9/getting-started-with-scalardb-by-using-kotlin/
+      - title: "Getting Started with ScalarDB Analytics with PostgreSQL"
+        url: /docs/3.9/scalardb-analytics-postgresql/getting-started/
   # Samples docs
   - title: "Samples" 
     children:
