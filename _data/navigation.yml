@@ -37,8 +37,10 @@ editions:
 versions:
   - version-top-title: "" # This title is taken from the `version_label` in `_data/ui-text.yml`.
     version-children:
-    - version-title: "3.11 Community (latest)"
+    - version-title: "3.12 Community (latest)"
       version-url: /docs/latest/getting-started-with-scalardb/
+    - version-title: "3.11 Community"
+      version-url: /docs/3.11/getting-started-with-scalardb/
     - version-title: "3.10 Community"
       version-url: /docs/3.10/getting-started-with-scalardb/
     - version-title: "3.9 Community"
@@ -62,9 +64,9 @@ versions:
 # After that, add a new scope in `_config.yml` to include an item that provides the proper versioned navigation to the site when someone visits the page (i.e., make sure people who visit a version 3.8 doc are shown a side navigation that includes only 3.8 docs.)
 
 "latest":
-  - title: "⬅ ScalarDB Community docs home" 
+  - title: "⬅ ScalarDB Community docs home"
     url: /docs # Don't change this URL. This links back to the parent product home page.
-  - title: "ScalarDB 3.11 Community"
+  - title: "ScalarDB 3.12 Community"
     children:
   # Get Started docs
   - title: "Get Started"
@@ -84,9 +86,9 @@ versions:
       - title: "Getting Started with ScalarDB Analytics with PostgreSQL"
         url: /docs/latest/scalardb-analytics-postgresql/getting-started/
   # Samples docs
-  - title: "Samples" 
+  - title: "Samples"
     children:
-      - title: "ScalarDB Samples" 
+      - title: "ScalarDB Samples"
         url: /docs/latest/scalardb-samples/README/
       # - title: "ScalarDB Samples"
       #   url: /docs/latest/scalardb-samples/scalardb-sample/README/
@@ -125,10 +127,10 @@ versions:
   # - title: "Migrate"
   #   children:
   #     - title: ""
-  #       url: 
+  #       url:
   # Reference docs
   - title: "Reference"
-    children:      
+    children:
       - title: "ScalarDB Design Document"
         url: /docs/latest/design/
       - title: "ScalarDB Supported Databases"
@@ -163,8 +165,110 @@ versions:
       # - title: "Release Support Policy"
       #   url: /docs/releases/release-support-policy
 
+"3.11":
+  - title: "⬅ ScalarDB Community docs home"
+    url: /docs # Don't change this URL. This links back to the parent product home page.
+  - title: "ScalarDB 3.11 Community"
+    children:
+  # Get Started docs
+  - title: "Get Started"
+    children:
+      # - title: "Getting Started with ScalarDB on Cassandra"
+      #   url: /docs/3.11/getting-started-with-scalardb-on-cassandra/
+      # - title: "Getting Started with ScalarDB on Cosmos DB"
+      #   url: /docs/3.11/getting-started-with-scalardb-on-cosmosdb/
+      # - title: "Getting Started with ScalarDB on DynamoDB"
+      #   url: /docs/3.11/getting-started-with-scalardb-on-dynamodb/
+      # - title: "Getting Started with ScalarDB on JDBC databases"
+      #   url: /docs/3.11/getting-started-with-scalardb-on-jdbc/
+      - title: "Getting Started with ScalarDB"
+        url: /docs/3.11/getting-started-with-scalardb/
+      - title: "Getting Started with ScalarDB by Using Kotlin"
+        url: /docs/3.11/getting-started-with-scalardb-by-using-kotlin/
+      - title: "Getting Started with ScalarDB Analytics with PostgreSQL"
+        url: /docs/3.11/scalardb-analytics-postgresql/getting-started/
+  # Samples docs
+  - title: "Samples"
+    children:
+      - title: "ScalarDB Samples"
+        url: /docs/3.11/scalardb-samples/README/
+      # - title: "ScalarDB Samples"
+      #   url: /docs/3.11/scalardb-samples/scalardb-sample/README/
+      # - title: "Microservice Transaction Sample"
+      #   url: /docs/3.11/scalardb-samples/microservice-transaction-sample/README/
+      # - title: "Multi-Storage Transaction Sample"
+      #   url: /docs/3.11/scalardb-samples/multi-storage-transaction-sample/README/
+  # Develop docs
+  - title: "Develop"
+    children:
+      - title: "Add ScalarDB to Your Build"
+        url: /docs/3.11/add-scalardb-to-your-build/
+      - title: "ScalarDB Java API Guide"
+        url: /docs/3.11/api-guide/
+      - title: "Configuration Guides for ScalarDB"
+        url: /docs/3.11/development-configurations/
+      - title: "ScalarDB Schema Loader"
+        url: /docs/3.11/schema-loader/
+      - title: "Importing Existing Tables to ScalarDB by Using ScalarDB Schema Loader"
+        url: /docs/3.11/schema-loader-import/
+      - title: "ScalarDB FDW for ScalarDB Analytics with PostgreSQL"
+        url: /docs/3.11/scalardb-analytics-postgresql/scalardb-fdw/
+      - title: "Schema Importer for ScalarDB Analytics with PostgreSQL"
+        url: /docs/3.11/scalardb-analytics-postgresql/schema-importer/
+  # Deploy docs
+  - title: "Deploy"
+    children:
+      - title: "ScalarDB Server"
+        url: /docs/3.11/scalardb-server/
+  # Manage docs
+  - title: "Manage"
+    children:
+      - title: "How to Back Up and Restore Databases Used Through ScalarDB"
+        url: /docs/3.11/backup-restore/
+  # Migrate docs
+  # - title: "Migrate"
+  #   children:
+  #     - title: ""
+  #       url: 
+  # Reference docs
+  - title: "Reference"
+    children:      
+      - title: "ScalarDB Design Document"
+        url: /docs/3.11/design/
+      - title: "ScalarDB Supported Databases"
+        url: /docs/3.11/scalardb-supported-databases/
+      - title: "Requirements and Recommendations for the Underlying Databases of ScalarDB"
+        url: /docs/3.11/requirements/
+      - title: "Storage Abstraction and API Guide"
+        url: /docs/3.11/storage-abstraction/
+      - title: "ScalarDB Benchmarks"
+        url: /docs/3.11/scalardb-benchmarks/README/
+  # Release docs and notes
+  - title: "Releases"
+    children:
+      - title: "Release Notes"
+        url: /docs/releases/
+      # - title: "v3.11"
+      #   url: /docs/releases/release-3.11/
+      # - title: "v3.10"
+      #   url: /docs/releases/release-3.10/
+      # - title: "v3.9"
+      #   url: /docs/releases/release-3.9/
+      # - title: "v3.8"
+      #   url: /docs/releases/release-3.8/
+      # - title: "v3.7"
+      #   url: /docs/releases/release-3.7/
+      # - title: "v3.6"
+      #   url: /docs/releases/release-3.6/
+      # - title: "v3.5"
+      #   url: /docs/releases/release-3.5/
+      # - title: "v3.4"
+      #   url: /docs/releases/release-3.4/
+      # - title: "Release Support Policy"
+      #   url: /docs/releases/release-support-policy
+
 "3.10":
-  - title: "⬅ ScalarDB Community docs home" 
+  - title: "⬅ ScalarDB Community docs home"
     url: /docs # Don't change this URL. This links back to the parent product home page.
   - title: "ScalarDB 3.10 Community"
     children:
@@ -186,9 +290,9 @@ versions:
       - title: "Getting Started with ScalarDB Analytics with PostgreSQL"
         url: /docs/3.10/scalardb-analytics-postgresql/getting-started/
   # Samples docs
-  - title: "Samples" 
+  - title: "Samples"
     children:
-      - title: "ScalarDB Samples" 
+      - title: "ScalarDB Samples"
         url: /docs/3.10/scalardb-samples/README/
       # - title: "ScalarDB Samples"
       #   url: /docs/3.10/scalardb-samples/scalardb-sample/README/
@@ -264,7 +368,7 @@ versions:
       #   url: /docs/releases/release-support-policy
 
 "3.9":
-  - title: "⬅ ScalarDB Community docs home" 
+  - title: "⬅ ScalarDB Community docs home"
     url: /docs # Don't change this URL. This links back to the parent product home page.
   - title: "ScalarDB 3.9 Community"
     children:
@@ -286,9 +390,9 @@ versions:
       - title: "Getting Started with ScalarDB Analytics with PostgreSQL"
         url: /docs/3.9/scalardb-analytics-postgresql/getting-started/
   # Samples docs
-  - title: "Samples" 
+  - title: "Samples"
     children:
-      - title: "ScalarDB Samples" 
+      - title: "ScalarDB Samples"
         url: /docs/3.9/scalardb-samples/README/
       # - title: "ScalarDB Samples"
       #   url: /docs/3.9/scalardb-samples/scalardb-sample/README/
@@ -364,7 +468,7 @@ versions:
       #   url: /docs/releases/release-support-policy
 
 "3.8":
-  - title: "⬅ ScalarDB Community docs home" 
+  - title: "⬅ ScalarDB Community docs home"
     url: /docs # Don't change this URL. This links back to the parent product home page.
   - title: "ScalarDB 3.8 Community"
     children:
@@ -384,9 +488,9 @@ versions:
       - title: "Getting Started with ScalarDB by Using Kotlin"
         url: /docs/3.8/getting-started-with-scalardb-by-using-kotlin/
   # Samples docs
-  - title: "Samples" 
+  - title: "Samples"
     children:
-      - title: "ScalarDB Samples" 
+      - title: "ScalarDB Samples"
         url: /docs/3.8/scalardb-samples/README/
       # - title: "ScalarDB Samples"
       #   url: /docs/3.8/scalardb-samples/scalardb-sample/README/
@@ -460,7 +564,7 @@ versions:
       #   url: /docs/releases/release-support-policy
 
 "3.7":
-  - title: "⬅ ScalarDB Community docs home" 
+  - title: "⬅ ScalarDB Community docs home"
     url: /docs # Don't change this URL. This links back to the parent product home page.
   - title: "ScalarDB 3.7 Community"
     children:
@@ -480,9 +584,9 @@ versions:
       - title: "Getting Started with ScalarDB by Using Kotlin"
         url: /docs/3.7/getting-started-with-scalardb-by-using-kotlin/
   # Samples docs
-  - title: "Samples" 
+  - title: "Samples"
     children:
-      - title: "ScalarDB Samples" 
+      - title: "ScalarDB Samples"
         url: /docs/3.7/scalardb-samples/README/
       # - title: "ScalarDB Samples"
       #   url: /docs/3.7/scalardb-samples/scalardb-sample/README/
@@ -556,7 +660,7 @@ versions:
       #   url: /docs/releases/release-support-policy
 
 "3.6":
-  - title: "⬅ ScalarDB Community docs home" 
+  - title: "⬅ ScalarDB Community docs home"
     url: /docs # Don't change this URL. This links back to the parent product home page.
   - title: "ScalarDB 3.6 Community"
     children:
@@ -576,9 +680,9 @@ versions:
       - title: "Getting Started with ScalarDB by Using Kotlin"
         url: /docs/3.6/getting-started-with-scalardb-by-using-kotlin/
   # Samples docs
-  - title: "Samples" 
+  - title: "Samples"
     children:
-      - title: "ScalarDB Samples" 
+      - title: "ScalarDB Samples"
         url: /docs/3.6/scalardb-samples/README/
       # - title: "ScalarDB Samples"
       #   url: /docs/3.6/scalardb-samples/scalardb-sample/README/
@@ -652,7 +756,7 @@ versions:
       #   url: /docs/releases/release-support-policy
 
 "3.5":
-  - title: "⬅ ScalarDB Community docs home" 
+  - title: "⬅ ScalarDB Community docs home"
     url: /docs # Don't change this URL. This links back to the parent product home page.
   - title: "ScalarDB 3.5 Community"
     children:
@@ -672,9 +776,9 @@ versions:
       - title: "Getting Started with ScalarDB by Using Kotlin"
         url: /docs/3.5/getting-started-with-scalardb-by-using-kotlin/
   # Samples docs
-  - title: "Samples" 
+  - title: "Samples"
     children:
-      - title: "ScalarDB Samples" 
+      - title: "ScalarDB Samples"
         url: /docs/3.5/scalardb-samples/README/
       # - title: "ScalarDB Samples"
       #   url: /docs/3.5/scalardb-samples/scalardb-sample/README/
@@ -744,7 +848,7 @@ versions:
       #   url: /docs/releases/release-support-policy
 
 "3.4":
-  - title: "⬅ ScalarDB Community docs home" 
+  - title: "⬅ ScalarDB Community docs home"
     url: /docs # Don't change this URL. This links back to the parent product home page.
   - title: "ScalarDB 3.4 Community"
     children:
@@ -764,9 +868,9 @@ versions:
       - title: "Getting Started with ScalarDB"
         url: /docs/3.4/getting-started-with-scalardb/
   # Samples docs
-  - title: "Samples" 
+  - title: "Samples"
     children:
-      - title: "ScalarDB Samples" 
+      - title: "ScalarDB Samples"
         url: /docs/3.4/scalardb-samples/README/
       # - title: "ScalarDB Samples"
       #   url: /docs/3.4/scalardb-samples/scalardb-sample/README/
