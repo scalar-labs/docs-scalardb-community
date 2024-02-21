@@ -6,7 +6,7 @@ on:
     branches:
       - "main"
     paths:
-      - "3.12" # This path *must* match the folder name of the latest product release version.
+      - "docs/3.12" # This path *must* match the folder name of the latest product release version.
   # The following `workflow_dispatch` lines are for scheduling this workflow to reduce GitHub actions. We might want to consider scheduling docs to sync to the docs site repos in the future if we use too many action minutes in our monthly GitHub quota.
   # workflow_dispatch:
   # schedule:
