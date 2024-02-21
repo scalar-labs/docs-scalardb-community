@@ -24,7 +24,7 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.SYNC_DOCS_PAT }}
         with:
           source_file: "docs/3.12/" # This path *must* match the folder name of the latest version.
-          destination_repo: "scalar-labs/docs-scalardb" # Target repo
+          destination_repo: "scalar-labs/docs-scalardb-community" # Target repo
           destination_folder: "docs/latest/" # Folder to sync to
           destination_branch_create: "scalardb/update-docs-latest"
           user_name: "josh-wong"
