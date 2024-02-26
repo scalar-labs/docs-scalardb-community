@@ -13,6 +13,7 @@ $gray: #7a8288 !default;
 $dark-gray: #eaeaea !default; /* This color isn't really gray and should be refactored. However, doing so would take considerable time, so I'm leaving it as is for now (modified by josh-wong). */
 $form-background-color: mix(#000, $background-color, 15%) !default;
 $footer-background-color: mix(#000, $background-color, 30%) !default;
+$language-toggle: #E9EAEB !default;
 $lighter-gray: mix(#fff, $gray, 90%) !default;
 $link-color: mix(#fff, #2673BB, 20%) !default;
 $link-color-hover: mix(#fff, $link-color, 50%) !default;
@@ -23,6 +24,7 @@ $masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
 $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 $scalar-primary-color: #2673BB !default;
 $scalar-light-gray-background-color: #1c1c1c !default; /* This color isn't really light gray and should be refactored. However, doing so would take considerable time, so I'm leaving it as is for now (modified by josh-wong). */
+$version-out-of-support-background-color: mix(#000, $background-color, 99%) !default;
 
 /* syntax highlighting (base16) */
 $base00: #1C1C1C !default;
@@ -39,7 +41,7 @@ $base00: #1C1C1C !default;
   $navicon-height: 0.25rem !default;
   $global-transition: all 0s ease-in-out !default; /* Changed the transition to `0s` because the transition causes an odd, slow color change when switching to dark mode; originally `0.2s` (modified by josh-wong). */
   $intro-transition: intro 0s both !default; /* Changed the transition to `0s` to make the page feel like it loads quicker; originally `0.3s` (modified by josh-wong). */
-   
+
 
 .author__urls.social-icons i,
 .author__urls.social-icons .svg-inline--fa,
