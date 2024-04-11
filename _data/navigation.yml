@@ -46,17 +46,17 @@ versions:
   - version-top-title: "" # This title is taken from the `version_label` in `_data/ui-text.yml`.
     version-children:
     - version-title: "3.12 Community (latest)"
-      version-url: /docs/latest/getting-started-with-scalardb/
+      version-url: /docs/latest/overview/
     - version-title: "3.11 Community"
-      version-url: /docs/3.11/getting-started-with-scalardb/
+      version-url: /docs/3.11/overview/
     - version-title: "3.10 Community"
-      version-url: /docs/3.10/getting-started-with-scalardb/
+      version-url: /docs/3.10/overview/
     - version-title: "3.9 Community"
-      version-url: /docs/3.9/getting-started-with-scalardb/
+      version-url: /docs/3.9/overview/
     - version-title: "3.8 Community"
-      version-url: /docs/3.8/getting-started-with-scalardb/
+      version-url: /docs/3.8/overview/
     - version-title: "3.7 Community"
-      version-url: /docs/3.7/getting-started-with-scalardb/
+      version-url: /docs/3.7/overview/
     # The following link contains a list of versions of ScalarDB that are no longer supported.
     - version-title: "Unsupported Versions"
       version-url: /docs/unsupported-versions/
@@ -85,6 +85,8 @@ versions:
       #   url: /docs/latest/getting-started-with-scalardb-on-dynamodb/
       # - title: "Getting Started with ScalarDB on JDBC databases"
       #   url: /docs/latest/getting-started-with-scalardb-on-jdbc/
+      - title: "ScalarDB Overview"
+        url: /docs/latest/overview/
       - title: "Getting Started with ScalarDB"
         url: /docs/latest/getting-started-with-scalardb/
       - title: "Getting Started with ScalarDB by Using Kotlin"
@@ -187,6 +189,8 @@ versions:
       #   url: /docs/3.11/getting-started-with-scalardb-on-dynamodb/
       # - title: "Getting Started with ScalarDB on JDBC databases"
       #   url: /docs/3.11/getting-started-with-scalardb-on-jdbc/
+      - title: "ScalarDB Overview"
+        url: /docs/3.11/overview/
       - title: "Getting Started with ScalarDB"
         url: /docs/3.11/getting-started-with-scalardb/
       - title: "Getting Started with ScalarDB by Using Kotlin"
@@ -289,6 +293,8 @@ versions:
       #   url: /docs/3.10/getting-started-with-scalardb-on-dynamodb/
       # - title: "Getting Started with ScalarDB on JDBC databases"
       #   url: /docs/3.10/getting-started-with-scalardb-on-jdbc/
+      - title: "ScalarDB Overview"
+        url: /docs/3.10/overview/
       - title: "Getting Started with ScalarDB"
         url: /docs/3.10/getting-started-with-scalardb/
       - title: "Getting Started with ScalarDB by Using Kotlin"
@@ -389,6 +395,8 @@ versions:
       #   url: /docs/3.9/getting-started-with-scalardb-on-dynamodb/
       # - title: "Getting Started with ScalarDB on JDBC databases"
       #   url: /docs/3.9/getting-started-with-scalardb-on-jdbc/
+      - title: "ScalarDB Overview"
+        url: /docs/3.9/overview/
       - title: "Getting Started with ScalarDB"
         url: /docs/3.9/getting-started-with-scalardb/
       - title: "Getting Started with ScalarDB by Using Kotlin"
@@ -489,6 +497,8 @@ versions:
       #   url: /docs/3.8/getting-started-with-scalardb-on-dynamodb/
       # - title: "Getting Started with ScalarDB on JDBC databases"
       #   url: /docs/3.8/getting-started-with-scalardb-on-jdbc/
+      - title: "ScalarDB Overview"
+        url: /docs/3.8/overview/
       - title: "Getting Started with ScalarDB"
         url: /docs/3.8/getting-started-with-scalardb/
       - title: "Getting Started with ScalarDB by Using Kotlin"
@@ -585,6 +595,8 @@ versions:
       #   url: /docs/3.7/getting-started-with-scalardb-on-dynamodb/
       # - title: "Getting Started with ScalarDB on JDBC databases"
       #   url: /docs/3.7/getting-started-with-scalardb-on-jdbc/
+      - title: "ScalarDB Overview"
+        url: /docs/3.7/overview/
       - title: "Getting Started with ScalarDB"
         url: /docs/3.7/getting-started-with-scalardb/
       - title: "Getting Started with ScalarDB by Using Kotlin"
