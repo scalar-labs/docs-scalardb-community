@@ -21,7 +21,7 @@ const sidebars = {
   docs: [
     {
       type: 'doc',
-      label: 'ScalarDB Docs Home',
+      label: 'ScalarDB Community Docs Home',
       id: 'index',
     },
     {
