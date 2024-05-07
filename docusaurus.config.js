@@ -8,12 +8,12 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ScalarDB Documentation',
+  title: 'ScalarDB Community Documentation',
   tagline: 'Cloud-native universal transaction manager',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://scalardb.scalar-labs.com',
+  url: 'https://scalardb-community.scalar-labs.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -21,7 +21,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'scalar-labs', // Usually your GitHub org/user name.
-  projectName: 'docs-scalardb', // Usually your repo name.
+  projectName: 'docs-scalardb-community', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -59,7 +59,7 @@ const config = {
           breadcrumbs: true,
           sidebarPath: './sidebars.js',
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/scalar-labs/docs-scalardb/edit/main',
+          editUrl: 'https://github.com/scalar-labs/docs-scalardb-community/edit/main',
           editLocalizedFiles: true, // This allows for the "Edit this page" button to direct users to edit the localized version of the page on GitHub.
           lastVersion: 'current',
             versions: {
@@ -156,14 +156,13 @@ const config = {
       },
     ],
     require.resolve('docusaurus-plugin-image-zoom'),
-    // [
-    //   require.resolve("docusaurus-lunr-search"),
-    //   {
-    //     enableHighlight: true,
-    //     languages: ['en', 'ja'], // language codes
-    //     includeRoutes: ['/docs/latest/**', '/ja-jp/docs/latest/**'],
-    //   },
-    // ],
+    [
+      require.resolve("docusaurus-lunr-search"),
+      {
+        enableHighlight: true,
+        includeRoutes: ['/docs/latest/**'],
+      },
+    ],
   ],
   markdown: {
     mermaid: true,
@@ -176,7 +175,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/scalardb-logo.png',
       navbar: {
-        title: '',
+        title: 'Community Edition',
         logo: {
           alt: 'ScalarDB logo',
           src: 'img/scalardb-logo.png',
@@ -209,35 +208,35 @@ const config = {
           // },
         ],
       },
-      algolia: {
-        // The application ID provided by Algolia
-        appId: '3M5M8MK1GK',
+      // algolia: {
+      //   // The application ID provided by Algolia
+      //   appId: '',
 
-        // Public API key: it is safe to commit it
-        apiKey: '1b88519fe6902d57179f5922b27b8c7a',
+      //   // Public API key: it is safe to commit it
+      //   apiKey: '',
 
-        indexName: 'scalardb-scalar-labs',
+      //   indexName: '',
 
-        // Optional: see doc section below
-        contextualSearch: true,
+      //   // Optional: see doc section below
+      //   contextualSearch: true,
 
-        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-        // externalUrlRegex: 'external\\.com|domain\\.com',
+      //   // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+      //   // externalUrlRegex: 'external\\.com|domain\\.com',
 
-        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
-        // replaceSearchResultPathname: {
-        //   from: '/docs/', // or as RegExp: /\/docs\//
-        //   to: '/',
-        // },
+      //   // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+      //   // replaceSearchResultPathname: {
+      //   //   from: '/docs/', // or as RegExp: /\/docs\//
+      //   //   to: '/',
+      //   // },
 
-        // Optional: Algolia search parameters
-        // searchParameters: {},
+      //   // Optional: Algolia search parameters
+      //   // searchParameters: {},
 
-        // Optional: path for search page that enabled by default (`false` to disable it)
-        searchPagePath: 'search',
+      //   // Optional: path for search page that enabled by default (`false` to disable it)
+      //   searchPagePath: 'search',
 
-        //... other Algolia params
-      },
+      //   //... other Algolia params
+      // },
       footer: {
         style: 'dark',
         links: [
