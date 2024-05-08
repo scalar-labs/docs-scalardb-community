@@ -125,7 +125,6 @@ const sidebars = {
       collapsible: true,
       items: [
         'releases/release-notes',
-        'releases/release-support-policy',
       ],
     },
   ],
