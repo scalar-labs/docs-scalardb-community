@@ -103,8 +103,7 @@
       "label": "Releases",
       "collapsible": true,
       "items": [
-        "releases/release-notes",
-        "releases/release-support-policy"
+        "releases/release-notes"
       ]
     }
   ]
