@@ -148,10 +148,6 @@ const config = {
             to: '/docs/latest',
             from: ['/', '/docs'],
           },
-          {
-            to: '/docs/latest/releases/release-support-policy',
-            from: '/docs/releases/release-support-policy',
-          },
         ],
       },
     ],
