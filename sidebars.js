@@ -86,6 +86,7 @@ const sidebars = {
             'two-phase-commit-transactions',
           ],
         },
+        'data-modeling',
         'add-scalardb-to-your-build',
         'schema-loader',
         'schema-loader-import',
