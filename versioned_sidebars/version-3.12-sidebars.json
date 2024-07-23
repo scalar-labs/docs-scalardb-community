@@ -1,9 +1,9 @@
 {
   "docs": [
     {
-      "type": "doc",
+      "type": "link",
       "label": "ScalarDB Community Docs Home",
-      "id": "index"
+      "href": "/docs/latest/"
     },
     {
       "type": "category",
