@@ -31,8 +31,9 @@ const sidebars = {
       items: [
         'overview',
         'design',
-        'scalardb-supported-databases',
         'requirements',
+        'scalardb-supported-databases',
+        'database-configurations',
       ],
     },
     {

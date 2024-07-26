@@ -12,8 +12,9 @@
       "items": [
         "overview",
         "design",
+        "requirements",
         "scalardb-supported-databases",
-        "requirements"
+        "database-configurations"
       ]
     },
     {
