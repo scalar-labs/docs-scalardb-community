@@ -58,7 +58,6 @@ const sidebars = {
       label: 'Samples',
       collapsible: true,
       items: [
-        'scalardb-samples/scalardb-sample/README',
         'scalardb-samples/multi-storage-transaction-sample/README',
         'scalardb-samples/microservice-transaction-sample/README',
         'scalardb-samples/scalardb-analytics-postgresql-sample/README',
