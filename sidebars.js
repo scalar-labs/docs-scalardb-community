@@ -29,38 +29,84 @@ const sidebars = {
       label: 'About ScalarDB',
       collapsible: true,
       items: [
-        'overview',
-        'design',
-        'requirements',
-        'scalardb-supported-databases',
-        'database-configurations',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Getting Started',
-      collapsible: true,
-      items: [
         {
-          type: 'category',
-          label: 'ScalarDB',
-          collapsible: true,
-          items: [
-            'getting-started-with-scalardb',
-            'getting-started-with-scalardb-by-using-kotlin',
-            'scalardb-analytics-postgresql/getting-started',
-          ],
+          type: 'doc',
+          id: 'overview',
+          label: 'Overview',
+        },
+        {
+          type: 'doc',
+          id: 'design',
+          label: 'Design',
+        },
+        {
+          type: 'doc',
+          id: 'scalardb-supported-databases',
+          label: 'Supported Databases',
+        },
+        {
+          type: 'doc',
+          id: 'requirements',
+          label: 'Requirements',
+        },
+        {
+          type: 'doc',
+          id: 'releases/release-notes',
+          label: 'Release Notes',
         },
       ],
     },
     {
       type: 'category',
-      label: 'Samples',
+      label: 'Quickstart',
       collapsible: true,
       items: [
-        'scalardb-samples/multi-storage-transaction-sample/README',
-        'scalardb-samples/microservice-transaction-sample/README',
-        'scalardb-samples/scalardb-analytics-postgresql-sample/README',
+        {
+          type: 'doc',
+          id: 'quick-start-overview',
+          label: 'Overview',
+        },
+        {
+          type: 'category',
+          label: 'Try ScalarDB Core Transactions',
+          collapsible: true,
+          items: [
+            {
+              type: 'doc',
+              id: 'getting-started-with-scalardb',
+              label: 'Use ScalarDB Core',
+            },
+            {
+              type: 'doc',
+              id: 'getting-started-with-scalardb-by-using-kotlin',
+              label: 'Use Kotlin',
+            },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Try ScalarDB Analytics',
+          collapsible: true,
+          items: [
+            {
+              type: 'doc',
+              id: 'scalardb-analytics-postgresql/getting-started',
+              label: 'Use ScalarDB Analytics with PostgreSQL',
+            },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Reference',
+          collapsible: true,
+          items: [
+            {
+              type: 'doc',
+              id: 'scalardb-analytics-postgresql/installation',
+              label: 'Install ScalarDB Analytics with PostgreSQL Locally',
+            },
+          ],
+        },
       ],
     },
     {
@@ -69,37 +115,190 @@ const sidebars = {
       collapsible: true,
       items: [
         {
+          type: 'doc',
+          id: 'develop-overview',
+          label: 'Overview',
+        },
+        {
           type: 'category',
-          label: 'Developer Guides',
+          label: 'Run Transactions',
           collapsible: true,
           items: [
-            'api-guide',
+            {
+              type: 'doc',
+              id: 'data-modeling',
+              label: 'Data Modeling',
+            },
+            {
+              type: 'category',
+              label: 'Run Through the CRUD Interface',
+              collapsible: true,
+              items: [
+                { // THIS LINK IS ONLY FOR RENDERING THE SIDEBAR. REMOVE THIS ITEM WHEN THE COMMENTED OUT DOC HAS BEEN CREATED.
+                  type: 'doc',
+                  id: 'overview',
+                  label: 'PLACEHOLDER',
+                },
+                // { To be created
+                //   type: 'doc',
+                //   id: 'run-transactions-through-scalardb-library',
+                //   label: 'Use the Library',
+                // },
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Advanced Configurations and Operations',
+              collapsible: true,
+              items: [
+                {
+                  type: 'doc',
+                  id: 'scalardb-benchmarks/README',
+                  label: 'Run Benchmarks',
+                },
+              ],
+            },
           ],
         },
         {
           type: 'category',
-          label: 'Configuration Guides',
+          label: 'Run Analytical Queries',
           collapsible: true,
           items: [
-            'configurations',
-            'multi-storage-transactions',
-            'two-phase-commit-transactions',
+            {
+              type: 'doc',
+              id: 'scalardb-samples/scalardb-analytics-postgresql-sample/README',
+              label: 'Use ScalarDB Analytics with PostgreSQL',
+            },
           ],
         },
-        'data-modeling',
-        'add-scalardb-to-your-build',
-        'schema-loader',
-        'schema-loader-import',
-        'scalardb-analytics-postgresql/scalardb-fdw',
-        'scalardb-analytics-postgresql/schema-importer',
+        {
+          type: 'category',
+          label: 'Run Non-Transactional Storage Operations',
+          collapsible: true,
+          items: [
+            {
+              type: 'category',
+              label: 'Run Through the CRUD Interface',
+              collapsible: true,
+              items: [
+                { // THIS LINK IS ONLY FOR RENDERING THE SIDEBAR. REMOVE THIS ITEM WHEN THE COMMENTED OUT DOC HAS BEEN CREATED.
+                  type: 'doc',
+                  id: 'overview',
+                  label: 'PLACEHOLDER',
+                },
+                // { To be created
+                //   type: 'doc',
+                //   id: 'run-non-transactional-operations-through-scalardb-library',
+                //   label: 'Use the Library',
+                // },
+                // { To be created
+                //   type: 'doc',
+                //   id: 'run-non-transactional-operations-through-scalardb-cluster',
+                //   label: 'Use ScalarDB Cluster',
+                // },
+              ],
+            },
+            // { To be created
+            //   type: 'doc',
+            //   id: 'run-non-transactional-operations-through-sql-interface',
+            //   label: 'Use the SQL Interface',
+            // },
+            {
+              type: 'doc',
+              id: 'storage-abstraction',
+              label: 'Run Through the Primitive CRUD Interface',
+            },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Create Sample Applications',
+          collapsible: true,
+          items: [
+            {
+              type: 'doc',
+              id: 'scalardb-samples/multi-storage-transaction-sample/README',
+              label: 'Multi-Storage Transactions',
+            },
+            {
+              type: 'doc',
+              id: 'scalardb-samples/microservice-transaction-sample/README',
+              label: 'Microservice Transactions',
+            },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Reference',
+          collapsible: true,
+          items: [
+            {
+              type: 'doc',
+              id: 'add-scalardb-to-your-build',
+              label: 'Add ScalarDB to Your Build',
+            },
+            {
+              type: 'doc',
+              id: 'configurations',
+              label: 'ScalarDB Configurations',
+            },
+            {
+              type: 'doc',
+              id: 'api-guide',
+              label: 'API Guide',
+            },
+            {
+              type: 'doc',
+              id: 'two-phase-commit-transactions',
+              label: 'Two-Phase Commit Transactions',
+            },
+            {
+              type: 'doc',
+              id: 'multi-storage-transactions',
+              label: 'Multi-Storage Transactions',
+            },
+            {
+              type: 'doc',
+              id: 'schema-loader',
+              label: 'Schema Loader',
+            },
+            {
+              type: 'category',
+              label: 'Analytics',
+              collapsible: true,
+              items: [
+                {
+                  type: 'doc',
+                  id: 'scalardb-analytics-postgresql/scalardb-fdw',
+                  label: 'ScalarDB FDW for PostgreSQL',
+                },
+                {
+                  type: 'doc',
+                  id: 'scalardb-analytics-postgresql/schema-importer',
+                  label: 'PostgreSQL Schema Importer for PostgreSQL',
+                },
+              ],
+            },
+          ],
+        },
       ],
     },
     {
       type: 'category',
-      label: 'Deploy',
+      label: 'Migrate',
       collapsible: true,
       items: [
-        'scalardb-analytics-postgresql/installation',
+        // { To be created
+        //   type: 'doc',
+        //   id: 'migrate-overview',
+        //   label: 'Overview',
+        // },
+        {
+          type: 'doc',
+          id: 'schema-loader-import',
+          label: 'Import Existing Tables',
+        },
       ],
     },
     {
@@ -107,25 +306,54 @@ const sidebars = {
       label: 'Manage',
       collapsible: true,
       items: [
-        'backup-restore',
+        // { To be created
+        //   type: 'doc',
+        //   id: 'manage-overview',
+        //   label: 'Overview',
+        // },
+        {
+          type: 'category',
+          label: 'Back Up and Restore',
+          collapsible: true,
+          items: [
+            // { To be created
+            //   type: 'doc',
+            //   id: 'manage-backup-and-restore',
+            //   label: 'Back Up and Restore Databases',
+            // },
+            {
+              type: 'category',
+              label: 'Reference',
+              collapsible: true,
+              items: [
+                {
+                  type: 'doc',
+                  id: 'backup-restore',
+                  label: 'Back Up and Restore Databases',
+                },
+              ],
+            },
+          ],
+        },
       ],
     },
     {
       type: 'category',
-      label: 'Reference',
+      label: 'Troubleshoot',
       collapsible: true,
       items: [
-        'scalardb-benchmarks/README',
-        'storage-abstraction',
-        'scalardb-core-status-codes',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Releases',
-      collapsible: true,
-      items: [
-        'releases/release-notes',
+        {
+          type: 'category',
+          label: 'Error Codes',
+          collapsible: true,
+          items: [
+            {
+              type: 'doc',
+              id: 'scalardb-core-status-codes',
+              label: 'ScalarDB',
+            },
+          ],
+        },
       ],
     },
   ],
