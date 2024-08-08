@@ -68,7 +68,7 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'Try ScalarDB Core Transactions',
+          label: 'Try Running Transactions Through the ScalarDB Core Library',
           collapsible: true,
           items: [
             {
@@ -85,7 +85,7 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'Try ScalarDB Analytics',
+          label: 'Try Running Analytical Queries Through ScalarDB Analytics',
           collapsible: true,
           items: [
             {
@@ -134,16 +134,11 @@ const sidebars = {
               label: 'Run Through the CRUD Interface',
               collapsible: true,
               items: [
-                { // THIS LINK IS ONLY FOR RENDERING THE SIDEBAR. REMOVE THIS ITEM WHEN THE COMMENTED OUT DOC HAS BEEN CREATED.
+                { // To be created
                   type: 'doc',
-                  id: 'overview',
-                  label: 'PLACEHOLDER',
+                  id: 'index',
+                  label: 'Use the ScalarDB Core Library (PLACEHOLDER)',
                 },
-                // { To be created
-                //   type: 'doc',
-                //   id: 'run-transactions-through-scalardb-library',
-                //   label: 'Use the Library',
-                // },
               ],
             },
             {
@@ -182,32 +177,17 @@ const sidebars = {
               label: 'Run Through the CRUD Interface',
               collapsible: true,
               items: [
-                { // THIS LINK IS ONLY FOR RENDERING THE SIDEBAR. REMOVE THIS ITEM WHEN THE COMMENTED OUT DOC HAS BEEN CREATED.
+                { // To be created
                   type: 'doc',
-                  id: 'overview',
-                  label: 'PLACEHOLDER',
+                  id: 'index',
+                  label: 'Use the ScalarDB Core Library (PLACEHOLDER)',
                 },
-                // { To be created
-                //   type: 'doc',
-                //   id: 'run-non-transactional-operations-through-scalardb-library',
-                //   label: 'Use the Library',
-                // },
-                // { To be created
-                //   type: 'doc',
-                //   id: 'run-non-transactional-operations-through-scalardb-cluster',
-                //   label: 'Use ScalarDB Cluster',
-                // },
               ],
             },
-            // { To be created
-            //   type: 'doc',
-            //   id: 'run-non-transactional-operations-through-sql-interface',
-            //   label: 'Use the SQL Interface',
-            // },
             {
               type: 'doc',
-              id: 'storage-abstraction',
-              label: 'Run Through the Primitive CRUD Interface',
+              id: 'index',
+              label: 'Run Through the Primitive CRUD Interface (PLACEHOLDER)',
             },
           ],
         },
@@ -289,11 +269,6 @@ const sidebars = {
       label: 'Migrate',
       collapsible: true,
       items: [
-        // { To be created
-        //   type: 'doc',
-        //   id: 'migrate-overview',
-        //   label: 'Overview',
-        // },
         {
           type: 'doc',
           id: 'schema-loader-import',
@@ -306,34 +281,10 @@ const sidebars = {
       label: 'Manage',
       collapsible: true,
       items: [
-        // { To be created
-        //   type: 'doc',
-        //   id: 'manage-overview',
-        //   label: 'Overview',
-        // },
         {
-          type: 'category',
-          label: 'Back Up and Restore',
-          collapsible: true,
-          items: [
-            {
-              type: 'doc',
-              id: 'manage-backup-and-restore',
-              label: 'Back Up and Restore Databases',
-            },
-            {
-              type: 'category',
-              label: 'Reference',
-              collapsible: true,
-              items: [
-                {
-                  type: 'doc',
-                  id: 'backup-restore',
-                  label: 'Back Up and Restore Databases',
-                },
-              ],
-            },
-          ],
+          type: 'doc',
+          id: 'backup-restore',
+          label: 'Back Up and Restore Databases Used Through ScalarDB',
         },
       ],
     },
