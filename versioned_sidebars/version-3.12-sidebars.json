@@ -108,7 +108,7 @@
             {
               "type": "doc",
               "id": "data-modeling",
-              "label": "Data Modeling"
+              "label": "Model Your Data"
             },
             {
               "type": "category",
@@ -164,13 +164,13 @@
                   "label": "Use the ScalarDB Core Library (PLACEHOLDER)"
                 }
               ]
+            },
+            {
+              "type": "doc",
+              "id": "index",
+              "label": "Run Through the Primitive CRUD Interface (PLACEHOLDER)"
             }
           ]
-        },
-        {
-          "type": "doc",
-          "id": "index",
-          "label": "Run Through the Primitive CRUD Interface (PLACEHOLDER)"
         },
         {
           "type": "category",
