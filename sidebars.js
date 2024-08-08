@@ -316,11 +316,11 @@ const sidebars = {
           label: 'Back Up and Restore',
           collapsible: true,
           items: [
-            // { To be created
-            //   type: 'doc',
-            //   id: 'manage-backup-and-restore',
-            //   label: 'Back Up and Restore Databases',
-            // },
+            {
+              type: 'doc',
+              id: 'manage-backup-and-restore',
+              label: 'Back Up and Restore Databases',
+            },
             {
               type: 'category',
               label: 'Reference',
