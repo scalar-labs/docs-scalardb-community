@@ -163,7 +163,7 @@ const sidebars = {
             {
               type: 'doc',
               id: 'scalardb-samples/scalardb-analytics-postgresql-sample/README',
-              label: 'Use ScalarDB Analytics with PostgreSQL',
+              label: 'Run ScalarDB Analytics with PostgreSQL',
             },
           ],
         },

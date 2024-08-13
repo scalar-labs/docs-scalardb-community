@@ -72,7 +72,7 @@
             {
               "type": "doc",
               "id": "scalardb-analytics-postgresql/getting-started",
-              "label": "Use ScalarDB Analytics with PostgreSQL"
+              "label": "Run ScalarDB Analytics with PostgreSQL"
             }
           ]
         },
