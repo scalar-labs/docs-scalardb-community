@@ -153,6 +153,18 @@ const config = {
             to: '/docs/latest',
             from: ['/', '/docs'],
           },
+          {
+            to: '/docs/latest/run-non-transactional-storage-operations-through-primitive-crud-interface',
+            from: '/docs/latest/storage-abstraction',
+          },
+          {
+            to: '/docs/3.13/run-non-transactional-storage-operations-through-primitive-crud-interface',
+            from: '/docs/3.13/storage-abstraction',
+          },
+          {
+            to: '/docs/3.12/run-non-transactional-storage-operations-through-primitive-crud-interface',
+            from: '/docs/3.12/storage-abstraction',
+          },
         ],
       },
     ],
