@@ -136,8 +136,8 @@ const sidebars = {
               items: [
                 { // To be created
                   type: 'doc',
-                  id: 'index',
-                  label: 'Use the ScalarDB Core Library (PLACEHOLDER)',
+                  id: 'run-transactions-through-scalardb-core-library',
+                  label: 'Use the ScalarDB Core Library',
                 },
               ],
             },
@@ -179,15 +179,15 @@ const sidebars = {
               items: [
                 { // To be created
                   type: 'doc',
-                  id: 'index',
-                  label: 'Use the ScalarDB Core Library (PLACEHOLDER)',
+                  id: 'run-non-transactional-storage-operations-through-library',
+                  label: 'Use the ScalarDB Core Library',
                 },
               ],
             },
             {
               type: 'doc',
-              id: 'index',
-              label: 'Run Through the Primitive CRUD Interface (PLACEHOLDER)',
+              id: 'run-non-transactional-storage-operations-through-primitive-crud-interface',
+              label: 'Run Through the Primitive CRUD Interface',
             },
           ],
         },
