@@ -142,6 +142,9 @@ const config = {
       }),
     ],
   ],
+  scripts: [
+    '/redirect.js', // Path to your custom JavaScript file
+  ],
 
   plugins: [
     [
@@ -542,7 +545,7 @@ const config = {
       announcementBar: {
         id: 'new_version',
         content:
-          '<b>Important: The ScalarDB Community docs site has been merged with the <a target="_self" rel="noopener noreferrer" href="https://scalardb.scalar-labs.com/docs/latest/">ScalarDB docs site</a>. Please update your bookmark.</b>',
+          '<b>Important: The ScalarDB Community docs site has been merged with the <a target="_self" rel="noopener noreferrer" href="https://scalardb.scalar-labs.com/docs/latest/">ScalarDB docs site</a>.</b>',
         backgroundColor: '#e00000',
         textColor: '#ffffff',
         isCloseable: false,
