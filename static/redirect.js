@@ -1,8 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-  const redirectUrl = 'https://scalardb.scalar-labs.com/docs/latest/';
-  const redirectTime = 10000; // 10,000 milliseconds = 10 seconds
+  const baseUrl = 'https://scalardb.scalar-labs.com'; // Base URL for redirection
+  // Redirect happens immediately. Otherwise, we can use the following to specify seconds.
+  // const redirectTime = 10000; // 10,000 milliseconds = 10 seconds
 
-  // Create and style the overlay element
+  // Create and style the overlay element.
   const overlay = document.createElement('div');
   overlay.style.position = 'fixed';
   overlay.style.top = '0';
@@ -15,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
   overlay.style.justifyContent = 'center';
   overlay.style.alignItems = 'center';
 
-  // Create and style the popup element
+  // Create and style the popup element.
   const popup = document.createElement('div');
   popup.style.backgroundColor = '#fff';
   popup.style.color = '#000';
@@ -26,38 +27,20 @@ document.addEventListener('DOMContentLoaded', function() {
   popup.style.zIndex = '1001';
   popup.style.textAlign = 'center';
 
-  // Create and style the countdown timer element
-  const countdown = document.createElement('div');
-  countdown.style.fontSize = '16px';
-  countdown.style.marginTop = '10px';
+  // Add message to the popup.
+  popup.innerHTML = 'The ScalarDB Community docs site has been merged with the <a href="https://scalardb.scalar-labs.com/docs/latest/">ScalarDB docs site</a>.';
 
-  // Add countdown timer to the popup
-  popup.innerHTML = 'The ScalarDB Community docs site has been merged with the <a href=="https://scalardb.scalar-labs.com/docs/latest/">ScalarDB docs site</a>.<br /><br />You will be redirected in <span id="countdown">10</span> seconds.';
-  popup.appendChild(countdown);
-
-  // Append popup to overlay
+  // Append popup to overlay.
   overlay.appendChild(popup);
 
-  // Append overlay to body
+  // Append overlay to body.
   document.body.appendChild(overlay);
 
-  // Countdown function
-  let timeRemaining = redirectTime / 1000; // Convert milliseconds to seconds
-  const countdownElement = document.getElementById('countdown');
+  // Get current path.
+  const currentPath = window.location.pathname;
 
-  const updateCountdown = () => {
-    countdownElement.innerText = timeRemaining;
-    if (timeRemaining <= 0) {
-      clearInterval(countdownInterval);
-      window.location.href = redirectUrl;
-    } else {
-      timeRemaining--;
-    }
-  };
-
-  // Update countdown every second
-  const countdownInterval = setInterval(updateCountdown, 1000);
-
-  // Initial update
-  updateCountdown();
+  // Set timeout for redirect
+  setTimeout(function() {
+    window.location.href = `${baseUrl}${currentPath}`;
+  },); // Redirect happens immediately. Otherwise, we can specify `redirectTime);` at the end of this line.
 });
