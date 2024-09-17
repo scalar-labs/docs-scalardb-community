@@ -539,14 +539,14 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
-      // announcementBar: {
-      //   id: 'new_version',
-      //   content:
-      //     '<b>ScalarDB X.X is now available!🥳 For details on what\'s included in this new version, see the <a target="_self" rel="noopener noreferrer" href="/docs/latest/releases/release-notes">release notes</a>.<b>',
-      //   backgroundColor: '#2673BB',
-      //   textColor: '#FFFFFF',
-      //   isCloseable: false,
-      // },
+      announcementBar: {
+        id: 'new_version',
+        content:
+          '<b>Important: The ScalarDB Community docs site has been merged with the <a target="_self" rel="noopener noreferrer" href="https://scalardb.scalar-labs.com/docs/latest/">ScalarDB docs site</a>. Please update your bookmark.</b>',
+        backgroundColor: '#e00000',
+        textColor: '#ffffff',
+        isCloseable: false,
+      },
       zoom: {
         selector: '.markdown :not(em) > img',
         background: {
