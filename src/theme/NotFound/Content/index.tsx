@@ -32,8 +32,8 @@ export default function NotFoundContent({className}: Props): JSX.Element {
               to="https://scalardb.scalar-labs.com/docs/latest/">
                 ScalarDB docs site
             </Link>.
-          </p>
-          <p>
+            <br />
+            <br />
             <Translate
               id="theme.NotFound.p2"
               description="The 2nd paragraph of the 404 page">
