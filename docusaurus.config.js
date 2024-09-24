@@ -142,6 +142,9 @@ const config = {
       }),
     ],
   ],
+  scripts: [
+    '/redirect.js', // Path to your custom JavaScript file
+  ],
 
   plugins: [
     [
@@ -150,21 +153,8 @@ const config = {
         redirects: [
           // This redirect takes the user to the latest version of the English docs when they land on the English versions of the docs site.
           {
-            to: '/docs/latest/',
+            to: 'https://scalardb.scalar-labs.com/docs/latest/',
             from: ['/', '/docs'],
-          },
-          {
-            to: '/docs/latest/run-non-transactional-storage-operations-through-primitive-crud-interface',
-            from: '/docs/latest/storage-abstraction',
-          },
-          // Uncomment this line when the docs for 3.14 are released.
-          // {
-          //   to: '/docs/3.13/run-non-transactional-storage-operations-through-primitive-crud-interface',
-          //   from: '/docs/3.13/storage-abstraction',
-          // },
-          {
-            to: '/docs/3.12/run-non-transactional-storage-operations-through-primitive-crud-interface',
-            from: '/docs/3.12/storage-abstraction',
           },
         ],
       },
@@ -359,14 +349,14 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
-      // announcementBar: {
-      //   id: 'new_version',
-      //   content:
-      //     '<b>ScalarDB X.X is now available!🥳 For details on what\'s included in this new version, see the <a target="_self" rel="noopener noreferrer" href="/docs/latest/releases/release-notes">release notes</a>.<b>',
-      //   backgroundColor: '#2673BB',
-      //   textColor: '#FFFFFF',
-      //   isCloseable: false,
-      // },
+      announcementBar: {
+        id: 'new_version',
+        content:
+          '<b>Important: The ScalarDB Community docs site has been merged with the <a target="_self" rel="noopener noreferrer" href="https://scalardb.scalar-labs.com/docs/latest/">ScalarDB docs site</a>.</b>',
+        backgroundColor: '#e00000',
+        textColor: '#ffffff',
+        isCloseable: false,
+      },
       zoom: {
         selector: '.markdown :not(em) > img',
         background: {
