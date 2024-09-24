@@ -1,10 +1,10 @@
 # ScalarDB Community Documentation
 
-> **Note**
-> 
-> If you're looking for the documentation repository for the commercial version of ScalarDB, please see [scalar-labs/docs-scalardb](https://github.com/scalar-labs/docs-scalardb), which stores the documentation for [ScalarDB Enterprise Docs](https://scalardb.scalar-labs.com/docs).
-
-This repository contains documentation source files for the open-source version of ScalarDB. Please view this documentation at [ScalarDB Community Docs](https://scalardb-community.scalar-labs.com/docs).
+> [!IMPORTANT]
+>
+> The ScalarDB Community docs site repository is no longer maintained and will be archived in the near future since the docs now live on the [ScalarDB docs site](https://scalardb.scalar-labs.com/docs/).
+>
+> Currently, all pages from the ScalarDB Community docs site redirect visitors to the ScalarDB docs site. On those page are tags that show whether the contents apply to the Community edition, Enterprise edition, or Enterprise Premium edition of ScalarDB.
 
 ## Interested in using ScalarDB Enterprise?
 
